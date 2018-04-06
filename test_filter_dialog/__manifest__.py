@@ -12,6 +12,7 @@
     ],
     'data': [
         "views/project_task_form_view.xml",
+        "views/project_templates.xml",
     ],
     'installable': True,
 }
