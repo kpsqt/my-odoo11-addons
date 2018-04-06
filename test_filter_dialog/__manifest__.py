@@ -8,7 +8,7 @@
     'author': 'Shanghai Cotong Software Co., Ltd.',
     'website': 'https://www.80sERP.com',
     'depends': [
-        'project','website'
+        'project',
     ],
     'data': [
         "views/project_task_form_view.xml",
