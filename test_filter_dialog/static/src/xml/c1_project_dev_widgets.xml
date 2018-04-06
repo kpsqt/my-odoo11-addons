@@ -1,0 +1,313 @@
+<template>
+
+    <t t-name="ModuleRevisionMarkSelection">
+        <div class="btn-group o_kanban_selection">
+            <a href="#" data-toggle="dropdown">
+                <span t-att-class="'oe_kanban_status ' + (current_state_class &amp;&amp; current_state_class || '')">
+
+                </span>
+            </a>
+            <ul class="dropdown-menu state" role="menu">
+                <li t-foreach="states" t-as="rec" t-att-data-value="rec.name">
+                    <a href="#">
+                        <span t-att-class="'oe_kanban_status ' + (rec.state_class &amp;&amp; rec.state_class || '')"/>
+                        <t t-raw="rec.state_name"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </t>
+
+    <t t-name="ModuleRevisionMarkFormWidget">
+        <div>
+            <!--<input min="0" placeholder="0" type="text" class="ct_rev_input oe_inline"/>-->
+
+            <div class="o_mail_thread">
+
+                <t t-foreach="reviews" t-as="re">
+                    <div class="o_thread_message">
+                        <div class="o_thread_message_sidebar">
+                            <img data-oe-model="res.partner" data-oe-id="" t-att-src="re.user.avatar_url"
+                                 class="o_thread_message_avatar img-circle"/>
+                        </div>
+                        <div class="o_thread_message_core">
+                            <p class="o_mail_info">
+                                <strong data-oe-model="res.partner" data-oe-id="" class="o_thread_author ">
+                                    <t t-esc="re.user.name"/>,
+                                    <t t-esc="re.revision"/>
+                                </strong>
+                                <t t-if="re.judgement=='good'">
+                                    <span icon="fa-thumbup">
+                                        <span class="fa fa-fw fa-thumbs-up o_button_icon"></span>
+                                        <span></span>
+                                    </span>
+                                </t>
+                                <t t-if="re.judgement=='not_good'">
+                                    <span icon="fa-thumdown">
+                                        <span class="fa fa-fw fa-thumbs-down o_button_icon"></span>
+                                        <span></span>
+                                    </span>
+                                </t>
+                                -
+                                <small class="o_mail_timestamp" t-att-title="re.date">
+                                    <t t-esc="re.date"/>
+                                </small>
+                            </p>
+                            <t t-if="re.judgement=='not_good'">
+                                <div class="o_thread_message_content">
+                                    <t t-esc="re.comment"/>
+                                </div>
+                            </t>
+                        </div>
+                    </div>
+                </t>
+
+
+                <div class="o_thread_message">
+                    <a href="#" class="o_form_uri ct_mark_link">Mark</a>
+                    -
+                    <a href="#" class="o_form_uri ct_see_all_mark_link">see all</a>
+                </div>
+
+                <div class="o_thread_message ct_composer_container">
+
+                    <div class="o_thread_message_core">
+                        <div class="o_composer ">
+                            <div class="dropup o_composer_mention_dropdown"></div>
+                            <div class="o_composer_input">
+                                <textarea class="o_input o_composer_text_field" tabindex="2"
+                                          style="height: 50px;"></textarea>
+                                <textarea disabled=""
+                                          style="position: absolute; opacity: 0; height: 10px; top: -10000px; left: -10000px; width: 757px;"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="o_composer_send pull-right" style="margin-top: 10px;">
+                            <button icon="fa-thumbdown" class="btn btn-sm btn-danger ct_composer_button_downrate ">
+                                <div class="fa fa-fw fa-thumbs-down o_button_icon"></div>
+                                <span></span>
+                            </button>
+                            <button icon="fa-thumbup" class="btn btn-sm btn-success ct_composer_button_uprate ">
+                                <div class="fa fa-fw fa-thumbs-up o_button_icon"></div>
+                                <span></span>
+                            </button>
+                            <a href="#" icon="fa-close" class="o_form_ui ct_composer_cancel_link">
+                                <span class="fa fa-fw fa-close o_button_icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!--<div class="ct_composer_container">
+                <div class="o_composer ">
+                    <div class="dropup o_composer_mention_dropdown"></div>
+                    <div class="o_composer_input">
+                        <textarea class="o_input o_composer_text_field" tabindex="2"
+                                  style="height: 50px;"></textarea>
+                        <textarea disabled=""
+                                  style="position: absolute; opacity: 0; height: 10px; top: -10000px; left: -10000px; width: 757px;"></textarea>
+                    </div>
+                </div>
+
+                <div class="o_composer_send pull-right" style="margin-top: 10px;">
+                    <button icon="fa-thumbdown" class="btn btn-sm btn-danger ct_button_downrate ">
+                        <div class="fa fa-fw fa-thumbs-down o_button_icon"></div>
+                        <span></span>
+                    </button>
+                    <button icon="fa-thumbup" class="btn btn-sm btn-success ct_button_uprate ">
+                        <div class="fa fa-fw fa-thumbs-up o_button_icon"></div>
+                        <span></span>
+                    </button>
+                    <a href="#" class="o_form_ui ct_cancel">
+                        <span class="fa fa-fw fa-delete o_button_icon"></span>
+                        <span>Cancel</span>
+                    </a>
+                </div>
+
+            </div>-->
+        </div>
+    </t>
+
+
+    <t t-name="review_list" t-foreach="reviews" t-as="re">
+        <div class="o_thread_date_separator">
+            <span class="o_thread_date">
+                Revision <t t-esc="re['revision']"/>
+            </span>
+        </div>
+        <t t-foreach="re['reviews']" t-as="review">
+            <div class="o_thread_message">
+                <div class="o_thread_message_sidebar">
+                    <img data-oe-model="res.partner" data-oe-id="" t-att-src="review.user.avatar_url"
+                         class="o_thread_message_avatar img-circle"/>
+                </div>
+                <div class="o_thread_message_core o_mail_note">
+                    <p class="o_mail_info">
+                        <strong data-oe-model="res.partner" data-oe-id="" class="o_thread_author ">
+                            <t t-esc="review.user.name"/>,
+                            <t t-esc="review.revision"/>
+                        </strong>
+                        <t t-if="review.judgement=='good'">
+                            <span icon="fa-thumbup">
+                                <span class="fa fa-fw fa-thumbs-up o_button_icon"></span>
+                                <span></span>
+                            </span>
+                        </t>
+                        <t t-if="review.judgement=='not_good'">
+                            <span icon="fa-thumdown">
+                                <span class="fa fa-fw fa-thumbs-down o_button_icon"></span>
+                                <span></span>
+                            </span>
+                        </t>
+                        -
+                        <small class="o_mail_timestamp" t-att-title="review.date">
+                            <t t-esc="review.date"/>
+                        </small>
+                    </p>
+
+                    <div class="o_thread_message_content">
+                        <t t-esc="review.comment"/>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </t>
+
+
+    <t t-name="c1_project_dev.ModuleReviewListDialog">
+        <div class="modal o_technical_modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h3 class="modal-title">Module revision</h3>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="o_mail_thread">
+
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <!--<button type="button" class="btn btn-sm btn-primary btn-continue">OK</button>-->
+                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal" aria-hidden="true">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+
+
+    <t t-name="RemoteDatabaseModuleFilter">
+        <button icon="fa-search" class="btn btn-sm ct_button_filter ">
+            <div class="fa fa-fw fa-search o_button_icon"></div>
+            <span>Module Management</span>
+        </button>
+    </t>
+
+    <t t-name="UserDataPathExplorer">
+        <style>
+            .sidenav {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            overflow-x: hidden;
+            padding-top: 16px;
+            padding-bottom: 60px;
+            }
+
+            .sidenav .list-group-item{
+            border-radius: 0px;
+            }
+
+            #main {
+            transition: margin-left .5s;
+            margin-left: 250px;
+            min-height: 350px;
+            padding: 16px;
+            }
+        </style>
+
+        <div>
+            <div class="folders-list-group list-group sidenav">
+                <t t-foreach="folders" t-as="f">
+                    <a href="#" t-att-data-idx="f_index" class="folder-item list-group-item">
+                        <t t-esc="f"/>
+                    </a>
+                </t>
+            </div>
+
+            <div id="main" class="folder-content-list-group">
+
+            </div>
+        </div>
+
+    </t>
+
+    <t t-name="UserDataPathExplorer_FileTable">
+
+        <!--<nav aria-label="breadcrumb" role="navigation">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">
+                    <t t-esc="current_folder"/>
+                </li>
+            </ol>
+        </nav>-->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <t t-esc="current_folder"/>
+            </a>
+            <form class="form-inline my-2 my-lg-0">
+                <a t-att-data-fid="folder" class="btn btn-sm btn-danger my-2 my-sm-0 btn-delete-folder">
+                    <i class="fa fa-trash-o fa-lg"></i>
+                </a>
+            </form>
+        </nav>
+
+
+        <div class="table-responsive">
+            <table class="o_list_view table table-condensed table-striped">
+                <thead>
+                    <tr>
+                        <!--<th class="o_list_record_selector" width="1">
+                            <div class="o_checkbox">
+                                <input type="checkbox">
+                                <span></span>
+                            </div>
+                        </th>-->
+                        <th class="o_column_sortable" t-att-data-p="folder">
+                            File name
+                        </th>
+                        <th class="">
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr t-foreach="file_list" t-as="file">
+                        <td>
+                            <t t-esc="file"/>
+                        </td>
+                        <td class="o_list_button">
+                            <button t-att-data-p="folder" t-att-data-name="file" type="button" title="Delete"
+                                    class="del_button o_icon_button ">
+                                <i title="Delete" class="fa fa-trash-o"></i>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </t>
+
+</template>
+
