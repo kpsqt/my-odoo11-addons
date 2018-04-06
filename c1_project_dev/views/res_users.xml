@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+
+        <!-- res_users form -->
+        <record model="ir.ui.view" id="view_res_users_form">
+            <field name="name">ct_project.res.users.form_view</field>
+            <field name="model">res.users</field>
+            <field name="inherit_id" ref="base.view_users_form"/>
+            <field name="arch" type="xml">
+                <field name="partner_id" position="after">
+                    <field name="is_svn_user"/>
+                </field>
+                <notebook position="inside">
+                    <page string="SVN" attrs="{'invisible':[('is_svn_user','=',False)]}"
+                          groups="c1_project_dev.ct_group_project_mamanger,project.group_project_manager">
+                        <h2>SVN Account parameters</h2>
+                        <newline/>
+                        <group>
+                            <field name="svn_account_id"/>
+                            <field name="svn_account" attrs="{'invisible':[('svn_account_id','=',False)]}"/>
+                            <field name="svn_password" attrs="{'invisible':[('svn_account_id','=',False)]}" password="1"/>
+                        </group>
+                    </page>
+                    <page name="docker" string="Docker">
+                        <group string="Docker">
+                            <!--<field name="docker_instance"/>-->
+                            <field name="docker_instance_id"/>
+                            <!--<field name="docker_user"/>
+                            <field name="docker_user_psswd" password="1"/>-->
+                        </group>
+                        <group attrs="{'invisible':[('docker_instance_id','=',False)]}" string="Personal path info">
+                            <field name="docker_db_suffix"  placeholder="e.g.: user.qitong.info"/>
+                            <!--<field name="path_id"/>-->
+                            <field name="personal_addons_path" attrs="{'invisible':[('docker_instance_id','=',False)]}"/>
+                            <field name="personal_enterprise_addons_path" attrs="{'invisible':[('docker_instance_id','=',False)]}"/>
+                            <field name="personal_log_path" attrs="{'invisible':[('docker_instance_id','=',False)]}"/>
+                            <field name="personal_data_path" attrs="{'invisible':[('docker_instance_id','=',False)]}"/>
+                        </group>
+                    </page>
+                </notebook>
+            </field>
+        </record>
+
+
+        <!-- res_users preference form -->
+        <record model="ir.ui.view" id="view_res_users_pref_form">
+            <field name="name">ct_project.res.users.preference_form_view</field>
+            <field name="model">res.users</field>
+            <field name="inherit_id" ref="base.view_users_form_simple_modif"/>
+            <field name="arch" type="xml">
+                <xpath expr="//button[@name='preference_change_password']" position="after">
+                    <field name="is_svn_user" invisible="1"/>
+                </xpath>
+                <xpath expr="//group[@name='preferences']" position="after">
+                    <group string="Svn account settings" attrs="{'invisible':[('is_svn_user','=',False)]}">
+                        <field name="svn_account"/>
+                        <field name="svn_password" password="1" />
+                        <button type="object" string="Change svn credentials" class="oe_link" name="preference_change_svn_credentials"/>
+                    </group>
+                </xpath>
+            </field>
+        </record>
+
+
+    </data>
+
+</odoo>
+

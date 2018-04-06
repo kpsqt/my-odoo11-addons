@@ -1,0 +1,4299 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* c1_project_dev
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-14 07:33+0000\n"
+"PO-Revision-Date: 2017-12-14 07:33+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:263
+#, python-format
+msgid "\"%s\" is not in you personal addons path. Please make sure you have downloaded it or contact your administrator if you think this is an error"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:128
+#, python-format
+msgid "<h3>Usage explanation</h3><p></p><h3>Things to avoid doing</h3><p></p><h3>Technical specifications</h3><p></p><h3>Possible issues</h3><p></p>"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+msgid "<span>Backup</span>"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "<span>Check dependences</span>"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "<span>Download</span>"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+msgid "<span>Get info</span>"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+msgid "<span>Go to</span>"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.module_form_view
+msgid "<span>Install dependencies</span>"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "<span>Install module</span>"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "<span>Manage database</span>"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.config_file_log_viewer_wizard
+#: model:ir.ui.view,arch_db:c1_project_dev.log_viewer_wizard
+msgid "<span>Refresh</span>"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.docker_container_form_view
+msgid "<span>Restart</span>"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.docker_container_form_view
+msgid "<span>Start</span>"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.docker_container_form_view
+msgid "<span>Stop</span>"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.user_addons_path_wizard_form_view
+msgid "<span>Svn checkout</span>"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:412
+#, python-format
+msgid "A task cannot be created at this stage."
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_active
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_active
+msgid "Active"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_current_rev
+msgid "Actual rev."
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.docker_manager_wizard_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.user_addons_path_wizard_form_view
+msgid "Addons"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_addons_path
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_addons_path
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_personal_addons_path
+msgid "Addons path"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Afghanistan"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Albania"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Albanian / Shqip"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Algeria"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "American Samoa"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Amharic / አምሃርኛ"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/svn_wizards.py:196
+#: code:addons/c1_project_dev/wizard/svn_wizards.py:310
+#: code:addons/c1_project_dev/wizard/svn_wizards.py:487
+#, python-format
+msgid "An error happened during the process: \n"
+"%s."
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_analysis_description
+msgid "Analysis Description"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Andorra"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Angola"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Anguilla"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Antarctica"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Arabic / الْعَرَبيّة"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Argentina"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Armenia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Aruba"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_owner
+msgid "Assigned to"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Australia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Austria"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/svn_wizards.py:190
+#, python-format
+msgid "Authentification error: check your svn credentials (user/password)."
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_authz_file
+msgid "Authz file"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_auto_install
+msgid "Auto-install"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,help:c1_project_dev.field_c1_project_dev_svn_wizard_auto_install
+msgid "Auto-install the module soon after transfer"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Azerbaijan"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Backup"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_action
+msgid "Backup from"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.svn_wizard,tag:0
+#: selection:c1_project_dev.transfer,tag:0
+msgid "Bad"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bahamas"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bahrain"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bangladesh"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Barbados"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Basque / Euskara"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Belarus"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Belgium"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Belize"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Benin"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bermuda"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bhutan"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:project.task.type,legend_blocked:c1_project_dev.analysis
+#: model:project.task.type,legend_blocked:c1_project_dev.canceled
+#: model:project.task.type,legend_blocked:c1_project_dev.deployment
+#: model:project.task.type,legend_blocked:c1_project_dev.development
+#: model:project.task.type,legend_blocked:c1_project_dev.done
+#: model:project.task.type,legend_blocked:c1_project_dev.specification
+#: model:project.task.type,legend_blocked:c1_project_dev.test
+#: selection:test.case,result:0
+msgid "Blocked"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bolivia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Bosnian / bosanski jezik"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Botswana"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bouvet Island"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Brazil"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Brunei Darussalam"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bulgaria"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Bulgarian / български език"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Burkina Faso"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Burmese / ဗမာစာ"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Burundi"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Cambodia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Cameroon"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_installable
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_installable
+msgid "Can be installed"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Canada"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.svn_checkout_wizard_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_change_svn_view
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_mark_module_rev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_module_install_view
+msgid "Cancel"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+msgid "Cancel Install"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+msgid "Cancel Uninstall"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+msgid "Cancel Upgrade"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Cancel install"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Cancel uninstall"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Cancel upgrade"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:project.task.type,name:c1_project_dev.canceled
+msgid "Canceled"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_cancellation_description
+msgid "Cancellation description"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:491
+#, python-format
+msgid "Cannot change the stage of a task till it is marked as \"done\""
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Cape Verde"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Catalan / Català"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Cayman Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Central African Republic"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Chad"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_change_svn_view
+msgid "Change"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.view_res_users_pref_form
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_change_svn_view
+msgid "Change svn credentials"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_change_svn_view
+msgid "Changing your svn credentials"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.svn_checkout_wizard_form_view
+msgid "Checkout"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.svn_checkout_wizard_form_view
+msgid "Checkout info"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Chile"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "China"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Chinese (CN) / 简体中文"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Chinese (HK)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Chinese (TW) / 正體字"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Christmas Island"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.cmd_wizard_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.module_dep_wizard_form_view
+msgid "Close"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_cmd_line_ids
+msgid "Cmd Line"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.server,name:c1_project_dev.collect_backup_file_cron_ir_actions_server
+#: model:ir.cron,cron_name:c1_project_dev.collect_backup_file_cron
+#: model:ir.cron,name:c1_project_dev.collect_backup_file_cron
+msgid "Collect backup files"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Colombia"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_command_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_command_id
+msgid "Command"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_cmd_args
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_cmd_args
+msgid "Command args"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.command_form_view
+msgid "Command name"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_output
+msgid "Command output"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_cmd_preview
+msgid "Command preview"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_type
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_cmd_type
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_cmd_type
+msgid "Command type"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_cmd_management_tool
+msgid "Command wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_commands_config
+#: model:ir.ui.menu,name:c1_project_dev.menu_command_config
+msgid "Commands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Comoros"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_log_viewer_wizard_name
+msgid "Config file path"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_ct_project_config
+msgid "Configure module upload"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Congo"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_containerid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_container_id
+msgid "Container ID"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_action_user_addons_path
+msgid "Container module explorer"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_name
+#: model:ir.ui.view,arch_db:c1_project_dev.docker_container_form_view
+msgid "Container name"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.docker_container_form_view
+msgid "Container short id"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_wizard_info_ids
+msgid "Containers"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Cook Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Costa Rica"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:res.groups,name:c1_project_dev.ct_group_testers
+msgid "Cotong Dev platform tester"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:res.groups,name:c1_project_dev.ct_group_project_mamanger
+msgid "Cotong project manager"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_country
+msgid "Country"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_to_create
+msgid "Create"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Create a new database"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,help:c1_project_dev.path_management_action
+msgid "Create a new user personal path"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Create database"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,action:0
+msgid "Create new database"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_log_viewer_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_log_viewer_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_create_date
+msgid "Created on"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Croatia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Croatian / hrvatski jezik"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Cuba"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Curaçao"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_current_rev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_current_revision
+msgid "Current revision"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_current_transfer_revision
+msgid "Current transfer revision"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Cyprus"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Czech / Čeština"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Czech Republic"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Côte d'Ivoire"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Danish / Dansk"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_data_path
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_personal_data_path
+msgid "Data path"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_database
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_database_info_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_database_record_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_db_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_database_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_database_id
+msgid "Database"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_db_backup_file
+msgid "Database backup file"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_config_settings_db_backup_dir
+msgid "Database backup files directory"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.res_config_settings_view_form
+msgid "Database backups"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_databses_info
+msgid "Database connections"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_module_install_view
+msgid "Database info"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_action_database_management_tool
+msgid "Database management"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Database management wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_database_management_tool
+msgid "Database manager"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_backup_db_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_db_copy_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_user_database
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_name
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Database name"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_docker_db_suffix
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_docker_db_suffix
+msgid "Database suffix"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_date
+msgid "Date"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_default_parameter
+msgid "Default parameter"
+msgstr ""
+
+#. module: c1_project_dev
+#. openerp-web
+#: code:addons/c1_project_dev/static/src/xml/c1_project_dev_widgets.xml:126
+#: code:addons/c1_project_dev/static/src/xml/c1_project_dev_widgets.xml:127
+#: model:ir.ui.view,arch_db:c1_project_dev.user_addons_path_wizard_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+#, python-format
+msgid "Delete"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,action:0
+msgid "Delete or copy database"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_delete_backup_files
+msgid "Delete related backup files"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Democratic Republic of the Congo"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Denmark"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.module_dep_wizard_form_view
+msgid "Dependencies"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard_dependencies
+msgid "Dependencies lines"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard_satisfied
+msgid "Dependencies satisfied"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+#: model:project.task.type,name:c1_project_dev.deployment
+msgid "Deployment"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_deployment_description
+msgid "Deployment description"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_description
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_cmd_description
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_description
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_description
+#: model:ir.ui.view,arch_db:c1_project_dev.module_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.repository_form_view
+msgid "Description"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_destination
+#: model:ir.ui.view,arch_db:c1_project_dev.svn_checkout_wizard_form_view
+msgid "Destination"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.res_config_settings_view_form
+msgid "Dev platform"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_dev_user_id
+msgid "Developer"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+#: model:project.task.type,name:c1_project_dev.development
+msgid "Development"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_development_description
+msgid "Development description"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,help:c1_project_dev.field_res_config_settings_db_backup_dir
+msgid "Directory where backup files are stored"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.res_config_settings_view_form
+msgid "Directory where databases backup files are stored"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_log_viewer_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Djibouti"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Do you really want to cancel the installation of this addon?"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Do you really want to cancel the uninstalling of this addon?"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Do you really want to cancel the upgrade of this addon?"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.user_addons_path_wizard_form_view
+msgid "Do you really want to delete this addon?"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Do you really want to delete this database?"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Do you really want to install this addon?"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Do you really want to uninstall this addon?"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Do you really want to upgrade this addon?"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.view_res_users_form
+msgid "Docker"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_docker_container_management
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_docker_instance_id
+msgid "Docker container"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_docker_instance
+msgid "Docker container name or ID"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_docker_container_config
+msgid "Docker containers"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.docker_manager_wizard_form_view
+msgid "Docker manager wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_docker_manager_path
+msgid "Docker monitor"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_docker_user
+msgid "Docker user"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_docker_user_psswd
+msgid "Docker user password"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Dominica"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Dominican Republic"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:project.task.type,name:c1_project_dev.done
+msgid "Done"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_type_doublon_allowed
+msgid "Doubles allowed"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_kanban_dev
+msgid "Download"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "Download the module in users personal directory"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_downloaded
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_downloaded
+msgid "Downloaded"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_current_downloaded_rev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_current_downloaded_rev
+msgid "Downloaded Revision"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_current_downloaded_rev
+msgid "Downloaded revision"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Dutch (BE) / Nederlands (BE)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Dutch / Nederlands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module_dependencies.line,install_method:0
+msgid "Easy Install"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,name:c1_project_dev.cmd_easy_install
+msgid "Easy install"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Ecuador"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Egypt"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "El Salvador"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "English"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "English (AU)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "English (UK)"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_enterprise_addons_path
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_personal_enterprise_addons_path
+msgid "Enterprise addons path"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Equatorial Guinea"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Eritrea"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Estonia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Estonian / Eesti keel"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Ethiopia"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_exe_step
+msgid "Execute Step"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_file_exists
+msgid "Exists"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.docker.container,state:0
+msgid "Exited"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_expect_result
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_expect_result
+msgid "Expect Result"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Falkland Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Faroe Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Fiji"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.backup_file,type:0
+msgid "File"
+msgstr ""
+
+#. module: c1_project_dev
+#. openerp-web
+#: code:addons/c1_project_dev/static/src/xml/c1_project_dev_widgets.xml:112
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_name
+#, python-format
+msgid "File name"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.user_addons_path_wizard_form_view
+msgid "Filter"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_test_finish_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_dev_finish_date
+msgid "Finish Time"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Finland"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Finnish / Suomi"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.backup_file,type:0
+msgid "Folder"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "France"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "French (BE) / Français (BE)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "French (CA) / Français (CA)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "French (CH) / Français (CH)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "French / Français"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "French Guiana"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "French Polynesia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "French Southern Territories"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,recovery_type:0
+msgid "From personal path"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,recovery_type:0
+msgid "From production server"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_command
+msgid "Full command"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_fullname
+msgid "Full file name"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.repository,repository_type:0
+msgid "GIT"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Gabon"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Galician / Galego"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Gambia"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.repository_form_view
+msgid "General info"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Georgia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Georgian / ქართული ენა"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "German (CH) / Deutsch (CH)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "German / Deutsch"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Germany"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Ghana"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Gibraltar"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.database_tree_view
+msgid "Go to"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.svn_wizard,tag:0
+#: selection:c1_project_dev.transfer,tag:0
+msgid "Good"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Greece"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Greek / Ελληνικά"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Greenland"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Grenada"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.module_info_search_view
+msgid "Group by"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_groups
+msgid "Groups"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Guadeloupe"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Guam"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Guatemala"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Guernsey"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Guinea"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Guinea-Bissau"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Gujarati / ગુજરાતી"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Guyana"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Haiti"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_params_mandatory
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_cmd_args_mandatory
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_cmd_args_mandatory
+msgid "Has mandatory params"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Hebrew / עִבְרִי"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Hindi / हिंदी"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Honduras"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Hong Kong"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Hungarian / Magyar"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Hungary"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_log_viewer_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_id
+msgid "ID"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Iceland"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,help:c1_project_dev.field_project_task_type_is_initial
+msgid "If a task can be initiated at this stage"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,help:c1_project_dev.field_c1_project_dev_module_downloaded
+#: model:ir.model.fields,help:c1_project_dev.field_project_task_downloaded
+msgid "If the module has already been downloaded to current user's personal path"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,help:c1_project_dev.field_project_task_type_doublon_allowed
+msgid "If this stage can contain many tasks having the same technical name"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_image
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_image_name
+msgid "Image"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project_issue.py:102
+#, python-format
+msgid "Impossible to have many issues with the same technical name in the stage '%s'"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:395
+#, python-format
+msgid "Impossible to have many tasks with the same technical name in the stage '%s'"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:project.task.type,legend_normal:c1_project_dev.analysis
+#: model:project.task.type,legend_normal:c1_project_dev.canceled
+#: model:project.task.type,legend_normal:c1_project_dev.deployment
+#: model:project.task.type,legend_normal:c1_project_dev.development
+#: model:project.task.type,legend_normal:c1_project_dev.done
+#: model:project.task.type,legend_normal:c1_project_dev.specification
+#: model:project.task.type,legend_normal:c1_project_dev.test
+msgid "In Progress"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/svn_wizards.py:374
+#, python-format
+msgid "Incorrect stage"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "India"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Indonesia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Indonesian / Bahasa Indonesia"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_type_is_initial
+msgid "Initial stage"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:803
+#: code:addons/c1_project_dev/wizard/cmd_wizards.py:92
+#, python-format
+msgid "Input such as \"rm\", \"|\", \"&\" are forbidden"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_module_install_view
+msgid "Install"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_demo
+msgid "Install Demo"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.module_dep_wizard_form_view
+msgid "Install dependencies"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_module_install_view
+msgid "Install in"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_installable
+msgid "Installable"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_install_method
+msgid "Installation method"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module.info,state:0
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_installed
+msgid "Installed"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+msgid "Installed module"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_installed_modules
+#: model:ir.ui.view,arch_db:c1_project_dev.module_info_search_view
+msgid "Installed modules"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/database_wizards.py:244
+#, python-format
+msgid "Invalid database name. Only alphanumerical characters, hyphen and dot are allowed."
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Iran"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Iraq"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Ireland"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_is_svn
+msgid "Is SVN"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_is_svn_user
+msgid "Is SVN user"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,help:c1_project_dev.field_c1_project_dev_command_suffix_cmd
+msgid "Is appended at the end of the command"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Isle of Man"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Israel"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_issue_count
+msgid "Issue Count"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Italian / Italiano"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Italy"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Jamaica"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Japan"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Japanese / 日本語"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Jersey"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Jordan"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_judgement
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_judgement
+msgid "Judgement"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Kabyle / Taqbaylit"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Kazakhstan"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Kenya"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Khmer / ភាសាខ្មែរ"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Kiribati"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Korean (KP) / 한국어 (KP)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Korean (KR) / 한국어 (KR)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Kuwait"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Kyrgyzstan"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_lang
+msgid "Language"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Lao / ພາສາລາວ"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Laos"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_log_viewer_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement___last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_log_viewer_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_log_viewer_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_last_checkout_time
+msgid "Last checkout"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_last_transfer_revision
+msgid "Last transfer revision"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Latvia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Latvian / latviešu valoda"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Lebanon"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Lesotho"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Liberia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Libya"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Liechtenstein"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard_line_number
+msgid "Line number"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_log_viewer_wizard_config_line_ids
+msgid "Lines"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.cmd_wizard_form_view
+msgid "Linux command run"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.cmd_wizard_form_view
+msgid "Linux command running wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_linux_password
+msgid "Linux password"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_linux_username
+msgid "Linux username"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Lithuania"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Lithuanian / Lietuvių kalba"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_is_local
+msgid "Local"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_local_module_record
+msgid "Local Module Record"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard_log
+#: model:ir.ui.view,arch_db:c1_project_dev.log_viewer_wizard
+msgid "Log"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_log_viewer_wizard
+#: model:ir.ui.view,arch_db:c1_project_dev.log_viewer_wizard
+msgid "Log Viewer"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_log_date
+msgid "Log date"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_message
+msgid "Log message"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_log_path
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_log_path
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_personal_log_path
+msgid "Log path"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_login
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_login_restore
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_login
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_login
+msgid "Login"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Luxembourg"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Macau"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Macedonia, the former Yugoslav Republic of"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Macedonian / македонски јазик"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Madagascar"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Malawi"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Malaysia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Maldives"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Mali"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Malta"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Manage Database"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Manage database"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_mark_module_rev
+msgid "Mark"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_mark_module_rev
+msgid "Mark module revision"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Marshall Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Martinique"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Mauritania"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Mauritius"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Mayotte"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Mexico"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Micronesia"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard_module_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_module_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_module_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_module_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_module_ids
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_module_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_module_id
+msgid "Module"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_module_install_view
+msgid "Module Info"
+msgstr ""
+
+#. module: c1_project_dev
+#. openerp-web
+#: code:addons/c1_project_dev/static/src/xml/c1_project_dev_widgets.xml:36
+#, python-format
+msgid "Module Management"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_transfer_config
+msgid "Module Transfer Settings"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.module_dep_wizard_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.user_addons_path_wizard_form_view
+msgid "Module dependences checking"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_module_dependencies
+msgid "Module dependencies"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_module_install_view
+msgid "Module install"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_action_module_install_tool
+msgid "Module installation"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_module_install_tool
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_module_install_view
+msgid "Module installation wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_name
+#: model:ir.ui.view,arch_db:c1_project_dev.module_form_view
+msgid "Module name"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_module_python_dependencies_tool
+msgid "Module python dependencies management wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+msgid "Module search"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_form_view
+msgid "Module transfer Settings"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_transfer
+msgid "Module transfer information"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_modules_config
+#: model:ir.ui.view,arch_db:c1_project_dev.repository_form_view
+msgid "Modules"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Moldova"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Monaco"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Mongolia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Mongolian / монгол"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Montenegro"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Montserrat"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Morocco"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Mozambique"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_action_user_backups_explorer
+msgid "My Backups"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Myanmar"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module.review,judgement:0
+#: selection:c1_project_dev.module.review.wizard,judgement:0
+msgid "NOT OK"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_name
+msgid "Name"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Namibia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Nauru"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Nepal"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Netherlands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "New Caledonia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "New Zealand"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Nicaragua"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Niger"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Nigeria"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Niue"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:585
+#, python-format
+msgid "No developers assigned"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Norfolk Island"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:test.case,result:0
+msgid "Normal"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "North Korea"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Norway"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Norwegian Bokmål / Norsk bokmål"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module.info,state:0
+msgid "Not Installed"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.cmd_wizard_form_view
+msgid "Not all kind of command can successfully run."
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_note
+msgid "Note"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module.review,judgement:0
+#: selection:c1_project_dev.module.review.wizard,judgement:0
+msgid "OK"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_action_log_viewer_tool
+msgid "Odoo Log viewer"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.config_file_log_viewer_wizard
+msgid "Odoo config file viewer"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_log_viewer_tool
+msgid "Odoo instance log viewer"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,help:c1_project_dev.field_c1_project_dev_transfer_author_user
+msgid "Odoo user related to the author of the revision"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Oman"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_onserver_revision
+msgid "On server revision"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:657
+#, python-format
+msgid "Only Project managers can delete tasks."
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:361
+#, python-format
+msgid "Only SVN users assigned to the project \"%s\" can update it to this stage."
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_operation_type
+msgid "Operation type"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.cmd_wizard_form_view
+msgid "Output"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_user_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_user_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_user_id
+#: model:ir.ui.view,arch_db:c1_project_dev.svn_account_form_view
+msgid "Owner"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Pakistan"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Palau"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Panama"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Papua New Guinea"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Paraguay"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line_name
+msgid "Param"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_passwd
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_passwd_restore
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_passwd
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_passwd
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard_current_user_password
+msgid "Password"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Persian / فارس"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_user_addons_path
+msgid "Personal addons path manager"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_path_id
+msgid "Personal directory"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.view_res_users_form
+msgid "Personal path info"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.path_management_action
+msgid "Personal path management"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Peru"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Philippines"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_physical_path
+msgid "Physical repository path"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module_dependencies.line,install_method:0
+msgid "Pip"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Pitcairn Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/module_wizards.py:60
+#, python-format
+msgid "Please choose the installation method for '%s'."
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Poland"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Polish / Język polski"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_ports_info
+msgid "Ports"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Portugal"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Portuguese (BR) / Português (BR)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Portuguese / Português"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_type_parent_stage
+msgid "Precedent stage"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:test.case,result:0
+msgid "Processing"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.backup_file,source:0
+msgid "Production Server"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_project_project
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_project_folder
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_db_project_record
+msgid "Project"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.repository_form_view
+msgid "Public access credentials"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_username
+msgid "Public user login"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_passwd
+msgid "Public user password"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Puerto Rico"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_python_dependencies
+msgid "Python dependencies"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_action_module_python_dependencies_tool
+msgid "Python dependencies management"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_name
+msgid "Python module"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Qatar"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.repository,name:c1_project_dev.qiyun
+msgid "QitongYun"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_description
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_description
+msgid "Raison"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:project.task.type,legend_done:c1_project_dev.analysis
+#: model:project.task.type,legend_done:c1_project_dev.canceled
+#: model:project.task.type,legend_done:c1_project_dev.deployment
+#: model:project.task.type,legend_done:c1_project_dev.development
+#: model:project.task.type,legend_done:c1_project_dev.done
+#: model:project.task.type,legend_done:c1_project_dev.specification
+#: model:project.task.type,legend_done:c1_project_dev.test
+msgid "Ready for Next Stage"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.user_addons_path_wizard_form_view
+msgid "Refresh"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_related_database
+msgid "Related database"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_related_database_ids
+msgid "Related databases"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_directory
+msgid "Related directory"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_type_related_fields
+msgid "Related fields"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_repository_config
+#: model:ir.ui.menu,name:c1_project_dev.menu_repository_config
+msgid "Repositories Management"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_repository_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_repo_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_project_repository_id
+msgid "Repository"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_repository_type
+msgid "Repository Type"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_url
+msgid "Repository URL"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_description
+msgid "Req Description"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_sequence
+msgid "Req No."
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_sequence
+msgid "Req or Bug No."
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "Requirement"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:project.task.type,name:c1_project_dev.analysis
+msgid "Requirements"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_user_id
+msgid "Responsible"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules_users
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_type_user_ids
+msgid "Responsible users"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_restart_container
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_restart_docker
+msgid "Restart container"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.docker.container,state:0
+msgid "Restarting"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,action:0
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Restore"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Restore database"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_result
+msgid "Result"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_revert_stage
+msgid "Return to stage"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_rev_author
+msgid "Rev. author"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_reversible
+msgid "Reversible"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.svn_wizard,state:0
+#: selection:c1_project_dev.transfer,operation_type:0
+msgid "Revert"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_rev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_version
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_revision
+msgid "Revision"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_author
+msgid "Revision author"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_revision_mark_ids
+msgid "Revision markings"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_revision_message
+msgid "Revision message"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_on_server_rev
+msgid "Revision on server"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.module_form_view
+msgid "Revision remarks"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_author_user
+msgid "Revison Author(User)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Romania"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Romanian / română"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_root
+msgid "Root directory"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.cmd_wizard_form_view
+msgid "Run"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.linux_cmd.wizard,state:0
+msgid "Run multiple commands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.linux_cmd.wizard,state:0
+msgid "Run single command"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.docker.container,state:0
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_running
+msgid "Running"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.cmd_wizard_form_view
+msgid "Running multiple command"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.cmd_wizard_form_view
+msgid "Running single command"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_in_docker
+msgid "Runs user's docker container"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Russian / русский язык"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Russian Federation"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Rwanda"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Réunion"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.repository,repository_type:0
+#: model:ir.ui.view,arch_db:c1_project_dev.view_res_users_form
+msgid "SVN"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.view_res_users_form
+msgid "SVN Account parameters"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_svn_account
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_account
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard_svn_account
+msgid "SVN account"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard_svn_password
+msgid "SVN account password"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_svn_repository
+msgid "SVN base repository"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_svn_password
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_password
+msgid "SVN password"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_repository_id
+#: model:ir.ui.view,arch_db:c1_project_dev.project_form_view
+msgid "SVN repository"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_project_repository_url
+msgid "SVN repository url"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Saint Barthélémy"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Saint Lucia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Samoa"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "San Marino"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Saudi Arabia"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_sender_svn_account
+msgid "Sender's SVN account"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_sender_svn_password
+msgid "Sender's SVN password"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Senegal"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_sequence
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Serbia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Serbian (Cyrillic) / српски"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Serbian (Latin) / srpski"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_server
+msgid "Server"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_server_rev
+msgid "Server current rev."
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_onserver_rev
+msgid "Server revision"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.res_config_settings_view_form
+msgid "Set server path for backup files storage."
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.res_config_settings_view_form
+msgid "Set server path for backup files."
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Seychelles"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_shortdesc
+msgid "Short description"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Sierra Leone"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.command,type:0
+msgid "Simple"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Singapore"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Sint Maarten (Dutch part)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Slovak / Slovenský jazyk"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Slovakia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Slovenia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Slovenian / slovenščina"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Solomon Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Somalia"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_source
+msgid "Source"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "South Africa"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "South Korea"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "South Sudan"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Spain"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (AR) / Español (AR)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (BO) / Español (BO)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (CL) / Español (CL)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (CO) / Español (CO)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (CR) / Español (CR)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (DO) / Español (DO)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (EC) / Español (EC)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (GT) / Español (GT)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (MX) / Español (MX)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (PA) / Español (PA)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (PE) / Español (PE)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (PY) / Español (PY)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (UY) / Español (UY)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (VE) / Español (VE)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish / Español"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:project.task.type,name:c1_project_dev.specification
+msgid "Specification"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "Specifications"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Sri Lanka"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules_stage_id
+msgid "Stage"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_stage_responsibles
+msgid "Stage Responsibles"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "Stage management"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_state
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_state
+#: model:ir.ui.view,arch_db:c1_project_dev.module_info_search_view
+msgid "State"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "State of Palestine"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_state
+msgid "Status"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_project_id
+msgid "String"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_revision
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_revision
+msgid "Subversion revision"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Sudan"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_suffix_cmd
+msgid "Suffix command"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Suriname"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_svn_account
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_account_id
+msgid "Svn account"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_svn_password
+msgid "Svn account password"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.view_res_users_pref_form
+msgid "Svn account settings"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.svn_account_form_view
+msgid "Svn account username"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_svn_account_config
+msgid "Svn accounts"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.svn_checkout_wizard_form_view
+msgid "Svn checkout Wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.svn_checkout_wizard_form_view
+msgid "Svn checkout wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_svn_repository_id
+msgid "Svn repository"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Swaziland"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Sweden"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Swedish / svenska"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Switzerland"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Syria"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "São Tomé and Príncipe"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_tag
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_tag
+msgid "Tag"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Taiwan"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Tajikistan"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Tanzania"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_project_task
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules_task_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_task_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_task_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_task_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_task_id
+msgid "Task"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_project_task_type
+msgid "Task Stage"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_form_view
+msgid "Task Stages"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_task_user_ids
+msgid "Team Member"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_technical_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard_filter_technical_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_technical_name
+msgid "Technical name"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Telugu / తెలుగు"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:project.task.type,name:c1_project_dev.test
+msgid "Test"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_test_case
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_testcase_ids
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "Test Case"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_test_input
+msgid "Test Input"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_test_requirement
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_testreq_ids
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "Test Requirement"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_test_step
+msgid "Test Step"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_database_management
+msgid "Test databases"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.repository,name:c1_project_dev.test_repo
+msgid "TestRep"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_test_user_id
+msgid "Tester"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_form_view
+msgid "Tester's list"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Thai / ภาษาไทย"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Thailand"
+msgstr ""
+
+#. module: c1_project_dev
+#: sql_constraint:c1_project_dev.userdb.info:0
+msgid "The combination of the database name and the login should be unique"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:736
+#, python-format
+msgid "The current user doesnt have the right to run this command (\"%s\"). Contact your administrator if you think this is an error."
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:454
+#: code:addons/c1_project_dev/models/project.py:475
+#: code:addons/c1_project_dev/models/project_issue.py:131
+#, python-format
+msgid "The current user is not authorized to perform this action. Make sure the user has access rights on the fields related to the stage \"%s\""
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/database_wizards.py:260
+#, python-format
+msgid "The database %s could not be created"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/svn_wizards.py:370
+#, python-format
+msgid "The stage to revert the task to should be a previous stage to the stage \"%s\""
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/svn_wizards.py:405
+#, python-format
+msgid "The stage to revert the task to should belong to the project \"%s\""
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:567
+#, python-format
+msgid "The task '%s' is blocked"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:574
+#, python-format
+msgid "The task '%s' is now under your responsibility at the stage '%s'"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:564
+#, python-format
+msgid "The task '%s' is ready for next stage"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:338
+#, python-format
+msgid "This task cannot be uploaded because the dependence requirements of the related module are not met."
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.svn_checkout_wizard_form_view
+msgid "This wizard allows you to checkout the module from the development server to user's personal addons path.<br/>\n"
+"					    <strong>You may fill the form with accurate svn information for the operation to be successful.</strong>"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Timor-Leste"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module.info,state:0
+msgid "To be installed"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module.info,state:0
+msgid "To be removed"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module.info,state:0
+msgid "To be upgraded"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_to_install
+msgid "To install"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "To this name will be appended the database suffix of the current user"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Togo"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Tokelau"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Tonga"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_tools
+msgid "Tools"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.svn_wizard,state:0
+#: selection:c1_project_dev.transfer,operation_type:0
+msgid "Transfer"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_transfer_ids
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "Transfer details"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_date
+msgid "Transfer time"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_transferable
+msgid "Transferable"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Tunisia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Turkey"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Turkish / Türkçe"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Turkmenistan"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Tuvalu"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_type
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_state
+msgid "Type"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "USA Minor Outlying Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Uganda"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Ukraine"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Ukrainian / українська"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/svn_wizards.py:193
+#, python-format
+msgid "Unable to connect to a repository at URL '%s'. Make sure the provided url is valid and your credentials as well."
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Uninstall"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module.info,state:0
+msgid "Uninstallable"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.module_info_search_view
+msgid "Uninstalled modules"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "Unit Test"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "United Arab Emirates"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "United Kingdom"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "United States"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_update
+msgid "Update"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_update_rev
+msgid "Update revision"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_update_stage
+msgid "Update stage"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Upgrade"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Uruguay"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,description:c1_project_dev.cmd_docker_stop
+msgid "Used stop docker container"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,description:c1_project_dev.cmd_docker_restart
+msgid "Used to restart docker container"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,description:c1_project_dev.cmd_docker_start
+msgid "Used to start docker container"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard_user_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_user_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_user_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard_module_info_ids
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard_user_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_user_id
+msgid "User"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.backup_file,source:0
+msgid "User backups"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.log_viewer_wizard
+msgid "User log viewer"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,help:c1_project_dev.field_c1_project_dev_transfer_user_id
+msgid "User who did the transfer"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_res_users
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_account_ids
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_user_ids
+#: model:ir.ui.view,arch_db:c1_project_dev.repository_form_view
+msgid "Users"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Uzbekistan"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line_value
+msgid "Value"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Vanuatu"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Venezuela"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_installed_version
+msgid "Version"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Vietnam"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Vietnamese / Tiếng Việt"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Virgin Islands (British)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Virgin Islands (USA)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Wallis and Futuna"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/svn_wizards.py:404
+#, python-format
+msgid "Warning"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Western Sahara"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.command,type:0
+msgid "With parameter"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_wizard_id
+msgid "Wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Yemen"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.repository,name:c1_project_dev.yongyou
+msgid "Yonyou"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/res_users.py:594
+#: code:addons/c1_project_dev/models/res_users.py:601
+#, python-format
+msgid "You are not allowed to perform this operation. contact your administrator if you think this is an error."
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Zambia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Zimbabwe"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_backup_file
+msgid "c1_project_dev.backup_file"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_command
+msgid "c1_project_dev.command"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_config_file_line
+msgid "c1_project_dev.config_file_line"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_config_file_log_viewer_wizard
+msgid "c1_project_dev.config_file_log_viewer.wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_database_wizard
+msgid "c1_project_dev.database.wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_docker_container
+msgid "c1_project_dev.docker.container"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_docker_manager_line
+msgid "c1_project_dev.docker_manager.line"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_docker_manager_wizard
+msgid "c1_project_dev.docker_manager.wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_linux_cmd_line
+msgid "c1_project_dev.linux_cmd.line"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_linux_cmd_wizard
+msgid "c1_project_dev.linux_cmd.wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_module
+msgid "c1_project_dev.module"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_module_info
+msgid "c1_project_dev.module.info"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_module_review
+msgid "c1_project_dev.module.review"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_module_review_wizard
+msgid "c1_project_dev.module.review.wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_module_wizard
+msgid "c1_project_dev.module.wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_module_dependencies_line
+msgid "c1_project_dev.module_dependencies.line"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_module_dependencies_wizard
+msgid "c1_project_dev.module_dependencies.wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.client,name:c1_project_dev.action_modules_filter
+msgid "c1_project_dev.module_filter"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_repository
+msgid "c1_project_dev.repository"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_stage_administration_rules
+msgid "c1_project_dev.stage_administration_rules"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_svn_account
+msgid "c1_project_dev.svn_account"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_svn_checkout_wizard
+msgid "c1_project_dev.svn_checkout_wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_svn_wizard
+msgid "c1_project_dev.svn_wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_user_addon_info
+msgid "c1_project_dev.user_addon.info"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_user_addons_path_wizard
+msgid "c1_project_dev.user_addons_path.wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.client,name:c1_project_dev.action_user_backups_explorer
+msgid "c1_project_dev.user_backups_explorer"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_userdb_info
+msgid "c1_project_dev.userdb.info"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_users_path
+msgid "c1_project_dev.users.path"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_cmd
+msgid "command root"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,name:c1_project_dev.cmd_docker_exec
+msgid "docker exec"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,name:c1_project_dev.cmd_docker_pip_install
+msgid "docker pip install"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,name:c1_project_dev.cmd_docker_restart
+msgid "docker restart"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,name:c1_project_dev.cmd_docker_start
+msgid "docker start"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,name:c1_project_dev.cmd_docker_stop
+msgid "docker stop"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "e.g.: demo"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.docker_container_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.view_res_users_form
+msgid "e.g.: user.qitong.info"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.user_addons_path_wizard_form_view
+msgid "filter"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_name
+msgid "name"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,help:c1_project_dev.field_c1_project_dev_command_default_parameter
+msgid "name of a configuration parameter used as a default parameter appended to the original command"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,name:c1_project_dev.cmd_pip_install
+msgid "pip install"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_recovery_type
+msgid "recovery type"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_res_config_settings
+msgid "res.config.settings"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_res_users_svn_wizard
+msgid "res.users.svn.wizard"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,description:c1_project_dev.cmd_easy_install
+msgid "use easy_install to install python modules"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,description:c1_project_dev.cmd_pip_install
+msgid "use pip to install python modules"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,description:c1_project_dev.cmd_docker_pip_install
+msgid "use pip to install python modules in the docker container specified in the configs"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,description:c1_project_dev.cmd_docker_exec
+msgid "used to execute some commands in docker container"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Åland Islands"
+msgstr ""
+

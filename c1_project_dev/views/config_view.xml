@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+
+	    <!--<record id="view_config_settings" model="ir.ui.view">
+            <field name="name">Modules upload settings</field>
+            <field name="model">ct_project.config.settings</field>
+            <field name="priority" eval="20"/>
+            <field name="arch" type="xml">
+                <form class="oe_form_configuration">
+                    <header>
+                        <button string="Apply" type="object" name="execute" class="oe_highlight"/>
+                        <button string="Cancel" type="object" name="cancel" class="oe_link"/>
+                    </header>
+                    &lt;!&ndash;<group string="Local instance informations">
+                        <field name="config_file_path"/>
+                        <button string="View log file" icon="fa-eye" type="object" name="action_view_log_file"/>
+                    </group>&ndash;&gt;
+                    &lt;!&ndash;<group string="Module transfer Management" name="ct_module_management">&ndash;&gt;
+                        &lt;!&ndash;<field name="script_path" />&ndash;&gt;
+                        &lt;!&ndash;<field name="addons_directory" />&ndash;&gt;
+                        &lt;!&ndash;<field name="addons_path" />&ndash;&gt;
+                        &lt;!&ndash;<field name="upload_stage" widget="selection"/>&ndash;&gt;
+                        &lt;!&ndash;<field name="issue_upload_stage" widget="selection"/>&ndash;&gt;
+                        &lt;!&ndash;<field name="svn_repo_root_path" />&ndash;&gt;
+                        &lt;!&ndash;<field name="auto_install" />&ndash;&gt;
+                    &lt;!&ndash;</group>&ndash;&gt;
+                    &lt;!&ndash;<group string="Docker instance" name="">
+                        <field name="docker_instance" />
+                        <field name="docker_user" />
+                        <field name="docker_user_passwd" password="1"/>
+                    </group>&ndash;&gt;
+                    <group string="Database backup files" name="">
+                        <field name="db_backup_dir" />
+                    </group>
+                </form>
+            </field>
+        </record>-->
+
+		<record id="action_ct_project_config" model="ir.actions.act_window">
+			<field name="name">Configure module upload</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">res.config.settings</field>
+			<field name="view_mode">form</field>
+			<field name="target">inline</field>
+            <field name="context">{'module' : 'c1_project_dev'}</field>
+		</record>
+
+        <menuitem id="menu_transfer_config" name="Module Transfer Settings" parent="project.menu_project_config"
+             action="action_ct_project_config" groups="c1_project_dev.ct_group_project_mamanger,project.group_project_manager"/>
+
+
+        <record id="res_config_settings_view_form" model="ir.ui.view">
+            <field name="name">res.config.settings.view.form.inherit.project</field>
+            <field name="model">res.config.settings</field>
+            <field name="priority" eval="50"/>
+            <field name="inherit_id" ref="base.res_config_settings_view_form" />
+            <field name="arch" type="xml">
+                <xpath expr="//div[hasclass('settings')]" position="inside">
+                    <div class="app_settings_block" data-string="Dev platform" string="Dev platform" data-key="c1_project_dev" groups="project.group_project_manager">
+
+                        <h2>Database backups</h2>
+                        <div class="row mt16 o_settings_container" title="Set server path for backup files.">
+                            <div id="backup_path" class="col-xs-12 col-md-6 o_setting_box" title="Set server path for backup files storage.">
+                                <div class="o_setting_left_pane">
+
+                                </div>
+                                <div class="o_setting_right_pane" name="pad_project_right_pane">
+                                    <label for="db_backup_dir"/>
+                                    <div class="text-muted">
+                                        Directory where databases backup files are stored
+                                    </div>
+                                    <field name="db_backup_dir"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2>Scripts</h2>
+                        <div class="row mt16 o_settings_container" title="Set server path for scripts.">
+                            <div id="svnmod_script_path" class="col-xs-12 col-md-6 o_setting_box" title="Set server path for svn access-right modification script.">
+                                <div class="o_setting_left_pane">
+
+                                </div>
+                                <div class="o_setting_right_pane" name="pad_project_right_pane">
+                                    <label for="svnmod_script_path"/>
+                                    <div class="text-muted">
+                                        Path of script for svn access-right modification
+                                    </div>
+                                    <field name="svnmod_script_path"/>
+                                </div>
+                            </div>
+
+                            <div id="svncreate_script_path" class="col-xs-12 col-md-6 o_setting_box" title="Set server path for svn module creation script.">
+                                <div class="o_setting_left_pane">
+
+                                </div>
+                                <div class="o_setting_right_pane" name="pad_project_right_pane">
+                                    <label for="svncreate_script_path"/>
+                                    <div class="text-muted">
+                                        Path of script for svn module creation
+                                    </div>
+                                    <field name="svncreate_script_path"/>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </xpath>
+            </field>
+        </record>
+
+
+
+	</data>
+</odoo>

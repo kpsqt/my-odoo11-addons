@@ -1,0 +1,4687 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* c1_project_dev
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-14 07:33+0000\n"
+"PO-Revision-Date: 2017-12-14 15:44+0800\n"
+"Last-Translator: Henry Soo <henry.soo@hotmail.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 2.0.5\n"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:263
+#, python-format
+msgid ""
+"\"%s\" is not in you personal addons path. Please make sure you have "
+"downloaded it or contact your administrator if you think this is an error"
+msgstr ""
+"\"%s\"不在您的个人模块路径中。请确认您已经下载该模块，如果您认为这是一个错"
+"误，请联系您的系统管理员。"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:128
+#, python-format
+msgid ""
+"<h3>Usage explanation</h3><p></p><h3>Things to avoid doing</h3><p></"
+"p><h3>Technical specifications</h3><p></p><h3>Possible issues</h3><p></p>"
+msgstr ""
+"<h3>用途说明</h3><p></p><h3>避免要做的事</h3><p></p><h3>技术规格</h3><p></"
+"p><h3>可能的问题</h3><p></p>"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+msgid "<span>Backup</span>"
+msgstr "<span>备份</span>"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "<span>Check dependences</span>"
+msgstr "<span>检查依赖</span>"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "<span>Download</span>"
+msgstr "<span>下载</span>"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+msgid "<span>Get info</span>"
+msgstr "<span>获取详情</span>"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+msgid "<span>Go to</span>"
+msgstr "<span>转到</span>"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.module_form_view
+msgid "<span>Install dependencies</span>"
+msgstr "<span>安装依赖</span>"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "<span>Install module</span>"
+msgstr "<span>安装模块</span>"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "<span>Manage database</span>"
+msgstr "<span>推管理数据库</span>"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.config_file_log_viewer_wizard
+#: model:ir.ui.view,arch_db:c1_project_dev.log_viewer_wizard
+msgid "<span>Refresh</span>"
+msgstr "<span>刷新</span>"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.docker_container_form_view
+msgid "<span>Restart</span>"
+msgstr "<span>重启</span>"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.docker_container_form_view
+msgid "<span>Start</span>"
+msgstr "<span>开始</span>"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.docker_container_form_view
+msgid "<span>Stop</span>"
+msgstr "<span>停止</span>"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.user_addons_path_wizard_form_view
+msgid "<span>Svn checkout</span>"
+msgstr "<span>SVN检出</span>"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:412
+#, python-format
+msgid "A task cannot be created at this stage."
+msgstr "此阶段不能创建任务。"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_active
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_active
+msgid "Active"
+msgstr "有效"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_current_rev
+msgid "Actual rev."
+msgstr "实际版本"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.docker_manager_wizard_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.user_addons_path_wizard_form_view
+msgid "Addons"
+msgstr "模块"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_addons_path
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_addons_path
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_personal_addons_path
+msgid "Addons path"
+msgstr "模块路径"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Afghanistan"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Albania"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Albanian / Shqip"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Algeria"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "American Samoa"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Amharic / አምሃርኛ"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/svn_wizards.py:196
+#: code:addons/c1_project_dev/wizard/svn_wizards.py:310
+#: code:addons/c1_project_dev/wizard/svn_wizards.py:487
+#, python-format
+msgid ""
+"An error happened during the process: \n"
+"%s."
+msgstr ""
+"处理时发生错误：\n"
+"%s。"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_analysis_description
+msgid "Analysis Description"
+msgstr "需求说明"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Andorra"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Angola"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Anguilla"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Antarctica"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Arabic / الْعَرَبيّة"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Argentina"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Armenia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Aruba"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_owner
+msgid "Assigned to"
+msgstr "分配给"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Australia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Austria"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/svn_wizards.py:190
+#, python-format
+msgid "Authentification error: check your svn credentials (user/password)."
+msgstr "验证错误：请检查您的SVN凭据（用户名/密码）"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_authz_file
+msgid "Authz file"
+msgstr "权限配置文件"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_auto_install
+msgid "Auto-install"
+msgstr "自动安装"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,help:c1_project_dev.field_c1_project_dev_svn_wizard_auto_install
+msgid "Auto-install the module soon after transfer"
+msgstr "推送完成之后自动安装模块"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Azerbaijan"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Backup"
+msgstr "备份"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_action
+msgid "Backup from"
+msgstr "备份源"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.svn_wizard,tag:0
+#: selection:c1_project_dev.transfer,tag:0
+msgid "Bad"
+msgstr "有问题"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bahamas"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bahrain"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bangladesh"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Barbados"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Basque / Euskara"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Belarus"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Belgium"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Belize"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Benin"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bermuda"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bhutan"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:project.task.type,legend_blocked:c1_project_dev.analysis
+#: model:project.task.type,legend_blocked:c1_project_dev.canceled
+#: model:project.task.type,legend_blocked:c1_project_dev.deployment
+#: model:project.task.type,legend_blocked:c1_project_dev.development
+#: model:project.task.type,legend_blocked:c1_project_dev.done
+#: model:project.task.type,legend_blocked:c1_project_dev.specification
+#: model:project.task.type,legend_blocked:c1_project_dev.test
+#: selection:test.case,result:0
+msgid "Blocked"
+msgstr "阻塞"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bolivia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Bosnian / bosanski jezik"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Botswana"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bouvet Island"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Brazil"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Brunei Darussalam"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Bulgaria"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Bulgarian / български език"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Burkina Faso"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Burmese / ဗမာစာ"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Burundi"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Cambodia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Cameroon"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_installable
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_installable
+msgid "Can be installed"
+msgstr "可以安装的"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Canada"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.svn_checkout_wizard_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_change_svn_view
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_mark_module_rev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_module_install_view
+msgid "Cancel"
+msgstr "取消"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+msgid "Cancel Install"
+msgstr "取消安装"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+msgid "Cancel Uninstall"
+msgstr "取消卸载"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+msgid "Cancel Upgrade"
+msgstr "取消升级"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Cancel install"
+msgstr "取消安装"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Cancel uninstall"
+msgstr "取消卸载"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Cancel upgrade"
+msgstr "取消升级"
+
+#. module: c1_project_dev
+#: model:project.task.type,name:c1_project_dev.canceled
+msgid "Canceled"
+msgstr "已取消"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_cancellation_description
+msgid "Cancellation description"
+msgstr "取消说明"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:491
+#, python-format
+msgid "Cannot change the stage of a task till it is marked as \"done\""
+msgstr "任务在标识为“完成”前无法更改阶段"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Cape Verde"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Catalan / Català"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Cayman Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Central African Republic"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Chad"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_change_svn_view
+msgid "Change"
+msgstr "更改"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.view_res_users_pref_form
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_change_svn_view
+msgid "Change svn credentials"
+msgstr "更改SVN凭据"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_change_svn_view
+msgid "Changing your svn credentials"
+msgstr "更改您的SVN凭据"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.svn_checkout_wizard_form_view
+msgid "Checkout"
+msgstr "检出"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.svn_checkout_wizard_form_view
+msgid "Checkout info"
+msgstr "检出信息"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Chile"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "China"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Chinese (CN) / 简体中文"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Chinese (HK)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Chinese (TW) / 正體字"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Christmas Island"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.cmd_wizard_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.module_dep_wizard_form_view
+msgid "Close"
+msgstr "关闭"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_cmd_line_ids
+msgid "Cmd Line"
+msgstr "命令行"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.server,name:c1_project_dev.collect_backup_file_cron_ir_actions_server
+#: model:ir.cron,cron_name:c1_project_dev.collect_backup_file_cron
+#: model:ir.cron,name:c1_project_dev.collect_backup_file_cron
+msgid "Collect backup files"
+msgstr "收集备份文件"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Colombia"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_command_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_command_id
+msgid "Command"
+msgstr "命令"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_cmd_args
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_cmd_args
+msgid "Command args"
+msgstr "命令参数"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.command_form_view
+msgid "Command name"
+msgstr "命令名称"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_output
+msgid "Command output"
+msgstr "命令输出"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_cmd_preview
+msgid "Command preview"
+msgstr "命令预览"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_type
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_cmd_type
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_cmd_type
+msgid "Command type"
+msgstr "命令类型"
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_cmd_management_tool
+msgid "Command wizard"
+msgstr "命令向导"
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_commands_config
+#: model:ir.ui.menu,name:c1_project_dev.menu_command_config
+msgid "Commands"
+msgstr "命令"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Comoros"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_log_viewer_wizard_name
+msgid "Config file path"
+msgstr "配置文件路径"
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_ct_project_config
+msgid "Configure module upload"
+msgstr "配置模块上传"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Congo"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_containerid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_container_id
+msgid "Container ID"
+msgstr "容器ID"
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_action_user_addons_path
+msgid "Container module explorer"
+msgstr "容器模块管理"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_name
+#: model:ir.ui.view,arch_db:c1_project_dev.docker_container_form_view
+msgid "Container name"
+msgstr "容器名称"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.docker_container_form_view
+msgid "Container short id"
+msgstr "容器短ID"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_wizard_info_ids
+msgid "Containers"
+msgstr "容器"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Cook Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Costa Rica"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:res.groups,name:c1_project_dev.ct_group_testers
+msgid "Cotong Dev platform tester"
+msgstr "企通云测试人员"
+
+#. module: c1_project_dev
+#: model:res.groups,name:c1_project_dev.ct_group_project_mamanger
+msgid "Cotong project manager"
+msgstr "企通云项目经理"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_country
+msgid "Country"
+msgstr "国家"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_to_create
+msgid "Create"
+msgstr "创建"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Create a new database"
+msgstr "创建新数据库"
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,help:c1_project_dev.path_management_action
+msgid "Create a new user personal path"
+msgstr "创建新用户个人路径"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Create database"
+msgstr "创建数据库"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,action:0
+msgid "Create new database"
+msgstr "创建新数据库"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_log_viewer_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_create_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_log_viewer_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_create_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Croatia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Croatian / hrvatski jezik"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Cuba"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Curaçao"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_current_rev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_current_revision
+msgid "Current revision"
+msgstr "当前版本"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_current_transfer_revision
+msgid "Current transfer revision"
+msgstr "当前推送的版本"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Cyprus"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Czech / Čeština"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Czech Republic"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Côte d'Ivoire"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Danish / Dansk"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_data_path
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_personal_data_path
+msgid "Data path"
+msgstr "数据文件路径"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_database
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_database_info_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_database_record_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_db_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_database_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_database_id
+msgid "Database"
+msgstr "数据库"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_db_backup_file
+msgid "Database backup file"
+msgstr "数据库备份文件"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_config_settings_db_backup_dir
+msgid "Database backup files directory"
+msgstr "数据库备份文件目录"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.res_config_settings_view_form
+msgid "Database backups"
+msgstr "数据库备份"
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_databses_info
+msgid "Database connections"
+msgstr "数据库连接"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_module_install_view
+msgid "Database info"
+msgstr "数据库信息"
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_action_database_management_tool
+msgid "Database management"
+msgstr "数据库管理"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Database management wizard"
+msgstr "数据库管理向导"
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_database_management_tool
+msgid "Database manager"
+msgstr "数据库管理器"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_backup_db_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_db_copy_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_user_database
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_name
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Database name"
+msgstr "数据库名称"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_docker_db_suffix
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_docker_db_suffix
+msgid "Database suffix"
+msgstr "数据库后缀"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_date
+msgid "Date"
+msgstr "日期"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_default_parameter
+msgid "Default parameter"
+msgstr "默认参数"
+
+#. module: c1_project_dev
+#. openerp-web
+#: code:addons/c1_project_dev/static/src/xml/c1_project_dev_widgets.xml:126
+#: code:addons/c1_project_dev/static/src/xml/c1_project_dev_widgets.xml:127
+#: model:ir.ui.view,arch_db:c1_project_dev.user_addons_path_wizard_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+#, python-format
+msgid "Delete"
+msgstr "删除"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,action:0
+msgid "Delete or copy database"
+msgstr "删除或者复制数据库"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_delete_backup_files
+msgid "Delete related backup files"
+msgstr "删除关联的备份文件"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Democratic Republic of the Congo"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Denmark"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.module_dep_wizard_form_view
+msgid "Dependencies"
+msgstr "依赖项"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard_dependencies
+msgid "Dependencies lines"
+msgstr "依赖项明细"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard_satisfied
+msgid "Dependencies satisfied"
+msgstr "已满足的依赖"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+#: model:project.task.type,name:c1_project_dev.deployment
+msgid "Deployment"
+msgstr "部署"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_deployment_description
+msgid "Deployment description"
+msgstr "部署说明"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_description
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_cmd_description
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_description
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_description
+#: model:ir.ui.view,arch_db:c1_project_dev.module_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.repository_form_view
+msgid "Description"
+msgstr "说明"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_destination
+#: model:ir.ui.view,arch_db:c1_project_dev.svn_checkout_wizard_form_view
+msgid "Destination"
+msgstr "目标"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.res_config_settings_view_form
+msgid "Dev platform"
+msgstr "开发平台"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_dev_user_id
+msgid "Developer"
+msgstr "开发人员"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+#: model:project.task.type,name:c1_project_dev.development
+msgid "Development"
+msgstr "开发"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_development_description
+msgid "Development description"
+msgstr "开发说明"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,help:c1_project_dev.field_res_config_settings_db_backup_dir
+msgid "Directory where backup files are stored"
+msgstr "保存备份文件的目录"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.res_config_settings_view_form
+msgid "Directory where databases backup files are stored"
+msgstr "保存数据库备份文件的目录"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_log_viewer_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_display_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Djibouti"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Do you really want to cancel the installation of this addon?"
+msgstr "您确认要取消这个模块的安装吗？"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Do you really want to cancel the uninstalling of this addon?"
+msgstr "您确认要取消这个模块的卸载吗？"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Do you really want to cancel the upgrade of this addon?"
+msgstr "您确认要取消这个模块的升级吗？"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.user_addons_path_wizard_form_view
+msgid "Do you really want to delete this addon?"
+msgstr "您确认要删除这个模块吗？"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Do you really want to delete this database?"
+msgstr "您确认要删除这个数据库吗？"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Do you really want to install this addon?"
+msgstr "您确认要安装这个模块吗？"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Do you really want to uninstall this addon?"
+msgstr "您确认要卸载这个模块吗？"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Do you really want to upgrade this addon?"
+msgstr "您确认要升级这个模块吗？"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.view_res_users_form
+msgid "Docker"
+msgstr "Docker"
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_docker_container_management
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_docker_instance_id
+msgid "Docker container"
+msgstr "Docker容器"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_docker_instance
+msgid "Docker container name or ID"
+msgstr "Docker容器名称或者ID"
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_docker_container_config
+msgid "Docker containers"
+msgstr "Docker容器"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.docker_manager_wizard_form_view
+msgid "Docker manager wizard"
+msgstr "Docker管理器向导"
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_docker_manager_path
+msgid "Docker monitor"
+msgstr "Docker监视器"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_docker_user
+msgid "Docker user"
+msgstr "Docker用户"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_docker_user_psswd
+msgid "Docker user password"
+msgstr "Docker用户密码"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Dominica"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Dominican Republic"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:project.task.type,name:c1_project_dev.done
+msgid "Done"
+msgstr "完成"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_type_doublon_allowed
+msgid "Doubles allowed"
+msgstr "允许重复"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_kanban_dev
+msgid "Download"
+msgstr "下载"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "Download the module in users personal directory"
+msgstr "下载模块到用户的个人目录"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_downloaded
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_downloaded
+msgid "Downloaded"
+msgstr "已下载"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_current_downloaded_rev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_current_downloaded_rev
+msgid "Downloaded Revision"
+msgstr "已下载版本"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_current_downloaded_rev
+msgid "Downloaded revision"
+msgstr "已下载版本"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Dutch (BE) / Nederlands (BE)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Dutch / Nederlands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module_dependencies.line,install_method:0
+msgid "Easy Install"
+msgstr "Easy Install"
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,name:c1_project_dev.cmd_easy_install
+msgid "Easy install"
+msgstr "Easy install"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Ecuador"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Egypt"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "El Salvador"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "English"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "English (AU)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "English (UK)"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_enterprise_addons_path
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_personal_enterprise_addons_path
+msgid "Enterprise addons path"
+msgstr "企业版模块路径"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Equatorial Guinea"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Eritrea"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Estonia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Estonian / Eesti keel"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Ethiopia"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_exe_step
+msgid "Execute Step"
+msgstr "执行步骤"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_file_exists
+msgid "Exists"
+msgstr "存在"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.docker.container,state:0
+msgid "Exited"
+msgstr "已退出"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_expect_result
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_expect_result
+msgid "Expect Result"
+msgstr "期望结果"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Falkland Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Faroe Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Fiji"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.backup_file,type:0
+msgid "File"
+msgstr "文件"
+
+#. module: c1_project_dev
+#. openerp-web
+#: code:addons/c1_project_dev/static/src/xml/c1_project_dev_widgets.xml:112
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_name
+#, python-format
+msgid "File name"
+msgstr "文件名称"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.user_addons_path_wizard_form_view
+msgid "Filter"
+msgstr "过滤器"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_test_finish_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_dev_finish_date
+msgid "Finish Time"
+msgstr "完成时间"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Finland"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Finnish / Suomi"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.backup_file,type:0
+msgid "Folder"
+msgstr "文件夹"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "France"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "French (BE) / Français (BE)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "French (CA) / Français (CA)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "French (CH) / Français (CH)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "French / Français"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "French Guiana"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "French Polynesia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "French Southern Territories"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,recovery_type:0
+msgid "From personal path"
+msgstr "用户个人路径"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,recovery_type:0
+msgid "From production server"
+msgstr "生产服务器"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_command
+msgid "Full command"
+msgstr "完整命令"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_fullname
+msgid "Full file name"
+msgstr "完整文件名称"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.repository,repository_type:0
+msgid "GIT"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Gabon"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Galician / Galego"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Gambia"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.repository_form_view
+msgid "General info"
+msgstr "常规信息"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Georgia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Georgian / ქართული ენა"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "German (CH) / Deutsch (CH)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "German / Deutsch"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Germany"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Ghana"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Gibraltar"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.database_tree_view
+msgid "Go to"
+msgstr "转到"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.svn_wizard,tag:0
+#: selection:c1_project_dev.transfer,tag:0
+msgid "Good"
+msgstr "好"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Greece"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Greek / Ελληνικά"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Greenland"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Grenada"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.module_info_search_view
+msgid "Group by"
+msgstr "分组方式"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_groups
+msgid "Groups"
+msgstr "组"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Guadeloupe"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Guam"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Guatemala"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Guernsey"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Guinea"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Guinea-Bissau"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Gujarati / ગુજરાતી"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Guyana"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Haiti"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_params_mandatory
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_cmd_args_mandatory
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_cmd_args_mandatory
+msgid "Has mandatory params"
+msgstr "包含强制的参数"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Hebrew / עִבְרִי"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Hindi / हिंदी"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Honduras"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Hong Kong"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Hungarian / Magyar"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Hungary"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_log_viewer_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_id
+msgid "ID"
+msgstr "ID"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Iceland"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,help:c1_project_dev.field_project_task_type_is_initial
+msgid "If a task can be initiated at this stage"
+msgstr "是否允许任务在此阶段初始化"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,help:c1_project_dev.field_c1_project_dev_module_downloaded
+#: model:ir.model.fields,help:c1_project_dev.field_project_task_downloaded
+msgid ""
+"If the module has already been downloaded to current user's personal path"
+msgstr "模块是否已被下载到用户的个人目录"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,help:c1_project_dev.field_project_task_type_doublon_allowed
+msgid "If this stage can contain many tasks having the same technical name"
+msgstr "此阶段是否可以包含多个拥有相同技术名称的任务"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_image
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_image_name
+msgid "Image"
+msgstr "图片"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project_issue.py:102
+#, python-format
+msgid ""
+"Impossible to have many issues with the same technical name in the stage '%s'"
+msgstr "不允许多个相同技术名称的问题存在于阶段 '%s' 中。"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:395
+#, python-format
+msgid ""
+"Impossible to have many tasks with the same technical name in the stage '%s'"
+msgstr "不允许多个相同技术名称的任务存在于阶段 '%s' 中。"
+
+#. module: c1_project_dev
+#: model:project.task.type,legend_normal:c1_project_dev.analysis
+#: model:project.task.type,legend_normal:c1_project_dev.canceled
+#: model:project.task.type,legend_normal:c1_project_dev.deployment
+#: model:project.task.type,legend_normal:c1_project_dev.development
+#: model:project.task.type,legend_normal:c1_project_dev.done
+#: model:project.task.type,legend_normal:c1_project_dev.specification
+#: model:project.task.type,legend_normal:c1_project_dev.test
+msgid "In Progress"
+msgstr "处理中"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/svn_wizards.py:374
+#, python-format
+msgid "Incorrect stage"
+msgstr "错误的阶段"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "India"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Indonesia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Indonesian / Bahasa Indonesia"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_type_is_initial
+msgid "Initial stage"
+msgstr "初始阶段"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:803
+#: code:addons/c1_project_dev/wizard/cmd_wizards.py:92
+#, python-format
+msgid "Input such as \"rm\", \"|\", \"&\" are forbidden"
+msgstr "无法输入“rm”、“|”、“&”之类的命令"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_module_install_view
+msgid "Install"
+msgstr "安装"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_demo
+msgid "Install Demo"
+msgstr "安装演示"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.module_dep_wizard_form_view
+msgid "Install dependencies"
+msgstr "安装依赖项"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_module_install_view
+msgid "Install in"
+msgstr "安装位置"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_installable
+msgid "Installable"
+msgstr "可安装的"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_install_method
+msgid "Installation method"
+msgstr "安装方法"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module.info,state:0
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_installed
+msgid "Installed"
+msgstr "已安装"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+msgid "Installed module"
+msgstr "已安装的模块"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_installed_modules
+#: model:ir.ui.view,arch_db:c1_project_dev.module_info_search_view
+msgid "Installed modules"
+msgstr "已安装的模块"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/database_wizards.py:244
+#, python-format
+msgid ""
+"Invalid database name. Only alphanumerical characters, hyphen and dot are "
+"allowed."
+msgstr "无效的数据库名称，只允许包含字母、下划线、连字符和点号字符。"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Iran"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Iraq"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Ireland"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_is_svn
+msgid "Is SVN"
+msgstr "是SVN模块"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_is_svn_user
+msgid "Is SVN user"
+msgstr "是SVN用户"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,help:c1_project_dev.field_c1_project_dev_command_suffix_cmd
+msgid "Is appended at the end of the command"
+msgstr "被附加到命令的末尾"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Isle of Man"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Israel"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_issue_count
+msgid "Issue Count"
+msgstr "问题数量"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Italian / Italiano"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Italy"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Jamaica"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Japan"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Japanese / 日本語"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Jersey"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Jordan"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_judgement
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_judgement
+msgid "Judgement"
+msgstr "判断"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Kabyle / Taqbaylit"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Kazakhstan"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Kenya"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Khmer / ភាសាខ្មែរ"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Kiribati"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Korean (KP) / 한국어 (KP)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Korean (KR) / 한국어 (KR)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Kuwait"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Kyrgyzstan"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_lang
+msgid "Language"
+msgstr "语言"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Lao / ພາສາລາວ"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Laos"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_log_viewer_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case___last_update
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement___last_update
+msgid "Last Modified on"
+msgstr "最后修改时间"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_log_viewer_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_write_uid
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_log_viewer_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_write_date
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_last_checkout_time
+msgid "Last checkout"
+msgstr "最后检出时间"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_last_transfer_revision
+msgid "Last transfer revision"
+msgstr "最后推送的版本"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Latvia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Latvian / latviešu valoda"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Lebanon"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Lesotho"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Liberia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Libya"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Liechtenstein"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard_line_number
+msgid "Line number"
+msgstr "行号"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_log_viewer_wizard_config_line_ids
+msgid "Lines"
+msgstr "行"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.cmd_wizard_form_view
+msgid "Linux command run"
+msgstr "Linux命令运行"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.cmd_wizard_form_view
+msgid "Linux command running wizard"
+msgstr "Linux命令运行向导"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_linux_password
+msgid "Linux password"
+msgstr "Linux密码"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_linux_username
+msgid "Linux username"
+msgstr "Linux用户名"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Lithuania"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Lithuanian / Lietuvių kalba"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_is_local
+msgid "Local"
+msgstr "本地"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_local_module_record
+msgid "Local Module Record"
+msgstr "本地模块记录"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard_log
+#: model:ir.ui.view,arch_db:c1_project_dev.log_viewer_wizard
+msgid "Log"
+msgstr "日志"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_log_viewer_wizard
+#: model:ir.ui.view,arch_db:c1_project_dev.log_viewer_wizard
+msgid "Log Viewer"
+msgstr "日志查看器"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_log_date
+msgid "Log date"
+msgstr "日志日期"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_message
+msgid "Log message"
+msgstr "日志消息"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_log_path
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_log_path
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_personal_log_path
+msgid "Log path"
+msgstr "日志路径"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_login
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_login_restore
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_login
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_login
+msgid "Login"
+msgstr "登录名"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Luxembourg"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Macau"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Macedonia, the former Yugoslav Republic of"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Macedonian / македонски јазик"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Madagascar"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Malawi"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Malaysia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Maldives"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Mali"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Malta"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Manage Database"
+msgstr "管理数据库"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Manage database"
+msgstr "管理数据库"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_mark_module_rev
+msgid "Mark"
+msgstr "标记"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_mark_module_rev
+msgid "Mark module revision"
+msgstr "标记模块版本"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Marshall Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Martinique"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Mauritania"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Mauritius"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Mayotte"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Mexico"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Micronesia"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_wizard_module_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_module_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_module_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_module_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_module_ids
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_module_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_module_id
+msgid "Module"
+msgstr "模块"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_module_install_view
+msgid "Module Info"
+msgstr "模块信息"
+
+#. module: c1_project_dev
+#. openerp-web
+#: code:addons/c1_project_dev/static/src/xml/c1_project_dev_widgets.xml:36
+#, python-format
+msgid "Module Management"
+msgstr "模块管理"
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_transfer_config
+msgid "Module Transfer Settings"
+msgstr "模块推送设置"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.module_dep_wizard_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.user_addons_path_wizard_form_view
+msgid "Module dependences checking"
+msgstr "模块依赖检查"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_module_dependencies
+msgid "Module dependencies"
+msgstr "模块依赖"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_module_install_view
+msgid "Module install"
+msgstr "模块安装"
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_action_module_install_tool
+msgid "Module installation"
+msgstr "模块安装"
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_module_install_tool
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_module_install_view
+msgid "Module installation wizard"
+msgstr "模块安装向导"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_name
+#: model:ir.ui.view,arch_db:c1_project_dev.module_form_view
+msgid "Module name"
+msgstr "模块名称"
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_module_python_dependencies_tool
+msgid "Module python dependencies management wizard"
+msgstr "模块Python依赖管理向导"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+msgid "Module search"
+msgstr "模块搜索"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_form_view
+msgid "Module transfer Settings"
+msgstr "模块推送设置"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_transfer
+msgid "Module transfer information"
+msgstr "模块推送信息"
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_modules_config
+#: model:ir.ui.view,arch_db:c1_project_dev.repository_form_view
+msgid "Modules"
+msgstr "模块"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Moldova"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Monaco"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Mongolia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Mongolian / монгол"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Montenegro"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Montserrat"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Morocco"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Mozambique"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_action_user_backups_explorer
+msgid "My Backups"
+msgstr "我的备份"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Myanmar"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module.review,judgement:0
+#: selection:c1_project_dev.module.review.wizard,judgement:0
+msgid "NOT OK"
+msgstr "NOT OK"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_name
+msgid "Name"
+msgstr "名称"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Namibia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Nauru"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Nepal"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Netherlands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "New Caledonia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "New Zealand"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Nicaragua"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Niger"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Nigeria"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Niue"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:585
+#, python-format
+msgid "No developers assigned"
+msgstr "没有分配开发人员"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Norfolk Island"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:test.case,result:0
+msgid "Normal"
+msgstr "正常"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "North Korea"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Norway"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Norwegian Bokmål / Norsk bokmål"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module.info,state:0
+msgid "Not Installed"
+msgstr "未安装"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.cmd_wizard_form_view
+msgid "Not all kind of command can successfully run."
+msgstr "并非所有类型的命令都可以成功的执行。"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_note
+msgid "Note"
+msgstr "备注"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module.review,judgement:0
+#: selection:c1_project_dev.module.review.wizard,judgement:0
+msgid "OK"
+msgstr "OK"
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_action_log_viewer_tool
+msgid "Odoo Log viewer"
+msgstr "Odoo日志查看器"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.config_file_log_viewer_wizard
+msgid "Odoo config file viewer"
+msgstr "Odoo配置文件查看器"
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_log_viewer_tool
+msgid "Odoo instance log viewer"
+msgstr "Odoo实例日志查看器"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,help:c1_project_dev.field_c1_project_dev_transfer_author_user
+msgid "Odoo user related to the author of the revision"
+msgstr "和版本作者关联的Odoo用户"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Oman"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_onserver_revision
+msgid "On server revision"
+msgstr "服务器版本"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:657
+#, python-format
+msgid "Only Project managers can delete tasks."
+msgstr "只有项目经理可以删除任务。"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:361
+#, python-format
+msgid ""
+"Only SVN users assigned to the project \"%s\" can update it to this stage."
+msgstr "只有分配到项目 \"%s\" 上的用户可以将任务更新到此阶段。"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_operation_type
+msgid "Operation type"
+msgstr "操作类型"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.cmd_wizard_form_view
+msgid "Output"
+msgstr "输出"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_user_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_user_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_user_id
+#: model:ir.ui.view,arch_db:c1_project_dev.svn_account_form_view
+msgid "Owner"
+msgstr "所有者"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Pakistan"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Palau"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Panama"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Papua New Guinea"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Paraguay"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line_name
+msgid "Param"
+msgstr "参数"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_passwd
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_passwd_restore
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_passwd
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_passwd
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard_current_user_password
+msgid "Password"
+msgstr "密码"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Persian / فارس"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_user_addons_path
+msgid "Personal addons path manager"
+msgstr "个人模块路径管理器"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_path_id
+msgid "Personal directory"
+msgstr "个人目录"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.view_res_users_form
+msgid "Personal path info"
+msgstr "个人路径管理"
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.path_management_action
+msgid "Personal path management"
+msgstr "个人路径管理"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Peru"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Philippines"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_physical_path
+msgid "Physical repository path"
+msgstr "仓库物理路径"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module_dependencies.line,install_method:0
+msgid "Pip"
+msgstr "Pip"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Pitcairn Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/module_wizards.py:60
+#, python-format
+msgid "Please choose the installation method for '%s'."
+msgstr "请为 '%s' 选择安装方法。"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Poland"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Polish / Język polski"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_ports_info
+msgid "Ports"
+msgstr "端口"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Portugal"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Portuguese (BR) / Português (BR)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Portuguese / Português"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_type_parent_stage
+msgid "Precedent stage"
+msgstr "先前的阶段"
+
+#. module: c1_project_dev
+#: selection:test.case,result:0
+msgid "Processing"
+msgstr "处理中"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.backup_file,source:0
+msgid "Production Server"
+msgstr "生产服务器"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_project_project
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_project_folder
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_db_project_record
+msgid "Project"
+msgstr "项目"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.repository_form_view
+msgid "Public access credentials"
+msgstr "公共访问凭据"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_username
+msgid "Public user login"
+msgstr "公共帐户名"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_passwd
+msgid "Public user password"
+msgstr "公共帐户密码"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Puerto Rico"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_python_dependencies
+msgid "Python dependencies"
+msgstr "Python依赖项"
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_action_module_python_dependencies_tool
+msgid "Python dependencies management"
+msgstr "Python依赖项管理"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_name
+msgid "Python module"
+msgstr "Python模块"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Qatar"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.repository,name:c1_project_dev.qiyun
+msgid "QitongYun"
+msgstr "企通云"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_description
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_description
+msgid "Raison"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:project.task.type,legend_done:c1_project_dev.analysis
+#: model:project.task.type,legend_done:c1_project_dev.canceled
+#: model:project.task.type,legend_done:c1_project_dev.deployment
+#: model:project.task.type,legend_done:c1_project_dev.development
+#: model:project.task.type,legend_done:c1_project_dev.done
+#: model:project.task.type,legend_done:c1_project_dev.specification
+#: model:project.task.type,legend_done:c1_project_dev.test
+msgid "Ready for Next Stage"
+msgstr "准备好下一阶段"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.user_addons_path_wizard_form_view
+msgid "Refresh"
+msgstr "刷新"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_related_database
+msgid "Related database"
+msgstr "关联数据库"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_related_database_ids
+msgid "Related databases"
+msgstr "关联数据库"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_directory
+msgid "Related directory"
+msgstr "关联目录"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_type_related_fields
+msgid "Related fields"
+msgstr "关联字段"
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_repository_config
+#: model:ir.ui.menu,name:c1_project_dev.menu_repository_config
+msgid "Repositories Management"
+msgstr "仓库管理"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_repository_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_repo_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_project_repository_id
+msgid "Repository"
+msgstr "代码仓库"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_repository_type
+msgid "Repository Type"
+msgstr "代码仓库类型"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_url
+msgid "Repository URL"
+msgstr "代码仓库URL"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_description
+msgid "Req Description"
+msgstr "需求描述"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_sequence
+msgid "Req No."
+msgstr "需求编号"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_sequence
+msgid "Req or Bug No."
+msgstr "需求或Bug编号"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "Requirement"
+msgstr "需求"
+
+#. module: c1_project_dev
+#: model:project.task.type,name:c1_project_dev.analysis
+msgid "Requirements"
+msgstr "需求"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_user_id
+msgid "Responsible"
+msgstr "负责人"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules_users
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_type_user_ids
+msgid "Responsible users"
+msgstr "负责用户"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_restart_container
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_restart_docker
+msgid "Restart container"
+msgstr "重启容器"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.docker.container,state:0
+msgid "Restarting"
+msgstr "重启中"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,action:0
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Restore"
+msgstr "恢复"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "Restore database"
+msgstr "恢复数据库"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_result
+msgid "Result"
+msgstr "结果"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_revert_stage
+msgid "Return to stage"
+msgstr "返回阶段"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_rev_author
+msgid "Rev. author"
+msgstr "版本作者"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_reversible
+msgid "Reversible"
+msgstr "可恢复的"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.svn_wizard,state:0
+#: selection:c1_project_dev.transfer,operation_type:0
+msgid "Revert"
+msgstr "恢复"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_rev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_version
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_revision
+msgid "Revision"
+msgstr "版本"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_author
+msgid "Revision author"
+msgstr "版本作者"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_revision_mark_ids
+msgid "Revision markings"
+msgstr "版本标记"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_revision_message
+msgid "Revision message"
+msgstr "版本信息"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_on_server_rev
+msgid "Revision on server"
+msgstr "服务器上的版本"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.module_form_view
+msgid "Revision remarks"
+msgstr "版本标记"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_author_user
+msgid "Revison Author(User)"
+msgstr "版本作者（用户）"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Romania"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Romanian / română"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_users_path_root
+msgid "Root directory"
+msgstr "根目录"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.cmd_wizard_form_view
+msgid "Run"
+msgstr "运行"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.linux_cmd.wizard,state:0
+msgid "Run multiple commands"
+msgstr "运行多条命令"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.linux_cmd.wizard,state:0
+msgid "Run single command"
+msgstr "运行一条命令"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.docker.container,state:0
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_running
+msgid "Running"
+msgstr "运行中"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.cmd_wizard_form_view
+msgid "Running multiple command"
+msgstr "多条命令在运行中"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.cmd_wizard_form_view
+msgid "Running single command"
+msgstr "一条命令在运行中"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_in_docker
+msgid "Runs user's docker container"
+msgstr "运行用户的Docker容器"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Russian / русский язык"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Russian Federation"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Rwanda"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Réunion"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.repository,repository_type:0
+#: model:ir.ui.view,arch_db:c1_project_dev.view_res_users_form
+msgid "SVN"
+msgstr "SVN"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.view_res_users_form
+msgid "SVN Account parameters"
+msgstr "SVN帐户参数"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_svn_account
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_account
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard_svn_account
+msgid "SVN account"
+msgstr "SVN帐户"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_wizard_svn_password
+msgid "SVN account password"
+msgstr "SVN账户密码"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_svn_repository
+msgid "SVN base repository"
+msgstr "SVN根代码仓库"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_svn_password
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_password
+msgid "SVN password"
+msgstr "SVN密码"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_repository_id
+#: model:ir.ui.view,arch_db:c1_project_dev.project_form_view
+msgid "SVN repository"
+msgstr "SVN代码仓库"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_project_repository_url
+msgid "SVN repository url"
+msgstr "SVN代码仓库URL"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Saint Barthélémy"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Saint Lucia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Samoa"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "San Marino"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Saudi Arabia"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_sender_svn_account
+msgid "Sender's SVN account"
+msgstr "发送人的SVN帐户"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_sender_svn_password
+msgid "Sender's SVN password"
+msgstr "发送人的SVN密码"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Senegal"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_sequence
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_sequence
+msgid "Sequence"
+msgstr "序号"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Serbia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Serbian (Cyrillic) / српски"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Serbian (Latin) / srpski"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_server
+msgid "Server"
+msgstr "服务器"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_server_rev
+msgid "Server current rev."
+msgstr "服务器当前版本"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_onserver_rev
+msgid "Server revision"
+msgstr "服务器版本"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.res_config_settings_view_form
+msgid "Set server path for backup files storage."
+msgstr "设置备份文件的服务器路径。"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.res_config_settings_view_form
+msgid "Set server path for backup files."
+msgstr "设置备份文件的服务器路径。"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Seychelles"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_shortdesc
+msgid "Short description"
+msgstr "简短描述"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Sierra Leone"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.command,type:0
+msgid "Simple"
+msgstr "简单"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Singapore"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Sint Maarten (Dutch part)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Slovak / Slovenský jazyk"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Slovakia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Slovenia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Slovenian / slovenščina"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Solomon Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Somalia"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_source
+msgid "Source"
+msgstr "来源"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "South Africa"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "South Korea"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "South Sudan"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Spain"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (AR) / Español (AR)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (BO) / Español (BO)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (CL) / Español (CL)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (CO) / Español (CO)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (CR) / Español (CR)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (DO) / Español (DO)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (EC) / Español (EC)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (GT) / Español (GT)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (MX) / Español (MX)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (PA) / Español (PA)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (PE) / Español (PE)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (PY) / Español (PY)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (UY) / Español (UY)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish (VE) / Español (VE)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Spanish / Español"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:project.task.type,name:c1_project_dev.specification
+msgid "Specification"
+msgstr "方案"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "Specifications"
+msgstr "方案"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Sri Lanka"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules_stage_id
+msgid "Stage"
+msgstr "阶段"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_stage_responsibles
+msgid "Stage Responsibles"
+msgstr "阶段负责人"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "Stage management"
+msgstr "阶段管理"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_state
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_state
+#: model:ir.ui.view,arch_db:c1_project_dev.module_info_search_view
+msgid "State"
+msgstr "省/ 州"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "State of Palestine"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_container_state
+msgid "Status"
+msgstr "状态"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_project_id
+msgid "String"
+msgstr "字符串"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_revision
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_revision
+msgid "Subversion revision"
+msgstr "SVN版本"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Sudan"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_suffix_cmd
+msgid "Suffix command"
+msgstr "后缀命令"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Suriname"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_svn_account
+#: model:ir.model.fields,field_description:c1_project_dev.field_res_users_svn_account_id
+msgid "Svn account"
+msgstr "SVN帐户"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_account_svn_password
+msgid "Svn account password"
+msgstr "SVN账户密码"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.view_res_users_pref_form
+msgid "Svn account settings"
+msgstr "SVN账户设置"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.svn_account_form_view
+msgid "Svn account username"
+msgstr "SVN账户名称"
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_svn_account_config
+msgid "Svn accounts"
+msgstr "SVN帐户"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.svn_checkout_wizard_form_view
+msgid "Svn checkout Wizard"
+msgstr "SVN检出向导"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.svn_checkout_wizard_form_view
+msgid "Svn checkout wizard"
+msgstr "SVN检出向导"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_checkout_wizard_svn_repository_id
+msgid "Svn repository"
+msgstr "SVN代码仓库"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Swaziland"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Sweden"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Swedish / svenska"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Switzerland"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Syria"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "São Tomé and Príncipe"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_tag
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_tag
+msgid "Tag"
+msgstr "标签"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Taiwan"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Tajikistan"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Tanzania"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_project_task
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_stage_administration_rules_task_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_task_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_task_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_task_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_requirement_task_id
+msgid "Task"
+msgstr "任务"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_project_task_type
+msgid "Task Stage"
+msgstr "任务阶段"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_form_view
+msgid "Task Stages"
+msgstr "任务阶段"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_task_user_ids
+msgid "Team Member"
+msgstr "团队成员"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_info_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_technical_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard_filter_technical_name
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_technical_name
+msgid "Technical name"
+msgstr "技术名称"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Telugu / తెలుగు"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:project.task.type,name:c1_project_dev.test
+msgid "Test"
+msgstr "测试"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_test_case
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_testcase_ids
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "Test Case"
+msgstr "测试用例"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_test_input
+msgid "Test Input"
+msgstr "测试输入"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_test_requirement
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_testreq_ids
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "Test Requirement"
+msgstr "测试"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_test_step
+msgid "Test Step"
+msgstr "测试步骤"
+
+#. module: c1_project_dev
+#: model:ir.actions.act_window,name:c1_project_dev.action_database_management
+msgid "Test databases"
+msgstr "测试数据库"
+
+#. module: c1_project_dev
+#: model:c1_project_dev.repository,name:c1_project_dev.test_repo
+msgid "TestRep"
+msgstr "测试人员"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_test_case_test_user_id
+msgid "Tester"
+msgstr "测试人员"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_form_view
+msgid "Tester's list"
+msgstr "测试人员列表"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Thai / ภาษาไทย"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Thailand"
+msgstr ""
+
+#. module: c1_project_dev
+#: sql_constraint:c1_project_dev.userdb.info:0
+msgid "The combination of the database name and the login should be unique"
+msgstr "数据库和登陆名称的组合必须为唯一"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:736
+#, python-format
+msgid ""
+"The current user doesnt have the right to run this command (\"%s\"). Contact "
+"your administrator if you think this is an error."
+msgstr ""
+"当前用户没有运行命令“%s”的权限。如果您认为这是一个错误，请联系您的管理员。"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:454
+#: code:addons/c1_project_dev/models/project.py:475
+#: code:addons/c1_project_dev/models/project_issue.py:131
+#, python-format
+msgid ""
+"The current user is not authorized to perform this action. Make sure the "
+"user has access rights on the fields related to the stage \"%s\""
+msgstr ""
+"当前用户没有权限执行这个操作。请确认用户有权限访问与阶段 \"%s\" 相关的字段。"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/database_wizards.py:260
+#, python-format
+msgid "The database %s could not be created"
+msgstr "数据库%s无法创建"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/svn_wizards.py:370
+#, python-format
+msgid ""
+"The stage to revert the task to should be a previous stage to the stage \"%s"
+"\""
+msgstr "要恢复到的阶段应该是一个在阶段 \"%s\" 之前的阶段。"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/svn_wizards.py:405
+#, python-format
+msgid "The stage to revert the task to should belong to the project \"%s\""
+msgstr "任务要恢复到的阶段应该属于项目 \"%s\""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:567
+#, python-format
+msgid "The task '%s' is blocked"
+msgstr "任务'%s'已被阻止"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:574
+#, python-format
+msgid "The task '%s' is now under your responsibility at the stage '%s'"
+msgstr "任务'%s'（在阶段'%s'）当前在您的负责下"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:564
+#, python-format
+msgid "The task '%s' is ready for next stage"
+msgstr "任务'%s'已准备好到下一阶段"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/project.py:338
+#, python-format
+msgid ""
+"This task cannot be uploaded because the dependence requirements of the "
+"related module are not met."
+msgstr "此任务无法上传，因为还没有满足关联模块的依赖要求。"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.svn_checkout_wizard_form_view
+msgid ""
+"This wizard allows you to checkout the module from the development server to "
+"user's personal addons path.<br/>\n"
+"\t\t\t\t\t    <strong>You may fill the form with accurate svn information "
+"for the operation to be successful.</strong>"
+msgstr ""
+"这个向导使得您可以将模块从开发服务器检出到用户的个人模块目录中。<br/>\n"
+"\t\t\t\t\t    <strong>您需要使用正确的SVN信息填写表单以确保操作可以成功执行。"
+"</strong>"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Timor-Leste"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module.info,state:0
+msgid "To be installed"
+msgstr "待安装的"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module.info,state:0
+msgid "To be removed"
+msgstr "待移除的"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module.info,state:0
+msgid "To be upgraded"
+msgstr "待升级的"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_to_install
+msgid "To install"
+msgstr "要安装的"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "To this name will be appended the database suffix of the current user"
+msgstr "此名称需要附加的当前用户的数据库后缀"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Togo"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Tokelau"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Tonga"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.ui.menu,name:c1_project_dev.menu_tools
+msgid "Tools"
+msgstr "工具"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.svn_wizard,state:0
+#: selection:c1_project_dev.transfer,operation_type:0
+msgid "Transfer"
+msgstr "推送"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_transfer_ids
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "Transfer details"
+msgstr "推送详情"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_transfer_date
+msgid "Transfer time"
+msgstr "推送时间"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_project_task_transferable
+msgid "Transferable"
+msgstr "可推送"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Tunisia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Turkey"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Turkish / Türkçe"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Turkmenistan"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Tuvalu"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_backup_file_type
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_wizard_state
+msgid "Type"
+msgstr "类型"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "USA Minor Outlying Islands"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Uganda"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Ukraine"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Ukrainian / українська"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/svn_wizards.py:193
+#, python-format
+msgid ""
+"Unable to connect to a repository at URL '%s'. Make sure the provided url is "
+"valid and your credentials as well."
+msgstr ""
+"无法连接到位于URL '%s' 的代码仓库。请确认提供的URL合法的，并且您的凭据没有问"
+"题。"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Uninstall"
+msgstr "卸载"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.module.info,state:0
+msgid "Uninstallable"
+msgstr "可卸载的"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.module_info_search_view
+msgid "Uninstalled modules"
+msgstr "已卸载的模块"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.project_task_form_dev
+msgid "Unit Test"
+msgstr "单元测试"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "United Arab Emirates"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "United Kingdom"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "United States"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_update
+msgid "Update"
+msgstr "更新"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_wizard_update_rev
+msgid "Update revision"
+msgstr "更新版本"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_svn_wizard_update_stage
+msgid "Update stage"
+msgstr "更新阶段"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.dtabase_module_info_tree
+msgid "Upgrade"
+msgstr "升级"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Uruguay"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,description:c1_project_dev.cmd_docker_stop
+msgid "Used stop docker container"
+msgstr "用于停止Docker容器"
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,description:c1_project_dev.cmd_docker_restart
+msgid "Used to restart docker container"
+msgstr "用户重启Docker容器"
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,description:c1_project_dev.cmd_docker_start
+msgid "Used to start docker container"
+msgstr "用于启动Docker容器"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_log_viewer_wizard_user_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_user_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_review_wizard_user_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard_module_info_ids
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addons_path_wizard_user_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_user_id
+msgid "User"
+msgstr "用户"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.backup_file,source:0
+msgid "User backups"
+msgstr "用户备份"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.log_viewer_wizard
+msgid "User log viewer"
+msgstr "用户日志查看器"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,help:c1_project_dev.field_c1_project_dev_transfer_user_id
+msgid "User who did the transfer"
+msgstr "执行推送的用户"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_res_users
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_repository_account_ids
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_userdb_info_user_ids
+#: model:ir.ui.view,arch_db:c1_project_dev.repository_form_view
+msgid "Users"
+msgstr "用户"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Uzbekistan"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line_value
+msgid "Value"
+msgstr "值"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Vanuatu"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Venezuela"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_module_dependencies_line_installed_version
+msgid "Version"
+msgstr "版本"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Vietnam"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,lang:0
+msgid "Vietnamese / Tiếng Việt"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Virgin Islands (British)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Virgin Islands (USA)"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Wallis and Futuna"
+msgstr ""
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/wizard/svn_wizards.py:404
+#, python-format
+msgid "Warning"
+msgstr "警告"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Western Sahara"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.command,type:0
+msgid "With parameter"
+msgstr "包含参数"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_config_file_line_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_docker_manager_line_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_linux_cmd_line_wizard_id
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_wizard_id
+msgid "Wizard"
+msgstr "向导"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Yemen"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:c1_project_dev.repository,name:c1_project_dev.yongyou
+msgid "Yonyou"
+msgstr "用友"
+
+#. module: c1_project_dev
+#: code:addons/c1_project_dev/models/res_users.py:594
+#: code:addons/c1_project_dev/models/res_users.py:601
+#, python-format
+msgid ""
+"You are not allowed to perform this operation. contact your administrator if "
+"you think this is an error."
+msgstr "您没有执行这个操作的权限。如果您认为这是一个错误，请联系您的管理员。"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Zambia"
+msgstr ""
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Zimbabwe"
+msgstr ""
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_backup_file
+msgid "c1_project_dev.backup_file"
+msgstr "c1_project_dev.backup_file"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_command
+msgid "c1_project_dev.command"
+msgstr "c1_project_dev.command"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_config_file_line
+msgid "c1_project_dev.config_file_line"
+msgstr "c1_project_dev.config_file_line"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_config_file_log_viewer_wizard
+msgid "c1_project_dev.config_file_log_viewer.wizard"
+msgstr "c1_project_dev.config_file_log_viewer.wizard"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_database_wizard
+msgid "c1_project_dev.database.wizard"
+msgstr "c1_project_dev.database.wizard"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_docker_container
+msgid "c1_project_dev.docker.container"
+msgstr "c1_project_dev.docker.container"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_docker_manager_line
+msgid "c1_project_dev.docker_manager.line"
+msgstr "c1_project_dev.docker_manager.line"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_docker_manager_wizard
+msgid "c1_project_dev.docker_manager.wizard"
+msgstr "c1_project_dev.docker_manager.wizard"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_linux_cmd_line
+msgid "c1_project_dev.linux_cmd.line"
+msgstr "c1_project_dev.linux_cmd.line"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_linux_cmd_wizard
+msgid "c1_project_dev.linux_cmd.wizard"
+msgstr "c1_project_dev.linux_cmd.wizard"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_module
+msgid "c1_project_dev.module"
+msgstr "c1_project_dev.module"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_module_info
+msgid "c1_project_dev.module.info"
+msgstr "c1_project_dev.module.info"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_module_review
+msgid "c1_project_dev.module.review"
+msgstr "c1_project_dev.module.review"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_module_review_wizard
+msgid "c1_project_dev.module.review.wizard"
+msgstr "c1_project_dev.module.review.wizard"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_module_wizard
+msgid "c1_project_dev.module.wizard"
+msgstr "c1_project_dev.module.wizard"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_module_dependencies_line
+msgid "c1_project_dev.module_dependencies.line"
+msgstr "c1_project_dev.module_dependencies.line"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_module_dependencies_wizard
+msgid "c1_project_dev.module_dependencies.wizard"
+msgstr "c1_project_dev.module_dependencies.wizard"
+
+#. module: c1_project_dev
+#: model:ir.actions.client,name:c1_project_dev.action_modules_filter
+msgid "c1_project_dev.module_filter"
+msgstr "c1_project_dev.module_filter"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_repository
+msgid "c1_project_dev.repository"
+msgstr "c1_project_dev.repository"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_stage_administration_rules
+msgid "c1_project_dev.stage_administration_rules"
+msgstr "c1_project_dev.stage_administration_rules"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_svn_account
+msgid "c1_project_dev.svn_account"
+msgstr "c1_project_dev.svn_account"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_svn_checkout_wizard
+msgid "c1_project_dev.svn_checkout_wizard"
+msgstr "c1_project_dev.svn_checkout_wizard"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_svn_wizard
+msgid "c1_project_dev.svn_wizard"
+msgstr "c1_project_dev.svn_wizard"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_user_addon_info
+msgid "c1_project_dev.user_addon.info"
+msgstr "c1_project_dev.user_addon.info"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_user_addons_path_wizard
+msgid "c1_project_dev.user_addons_path.wizard"
+msgstr "c1_project_dev.user_addons_path.wizard"
+
+#. module: c1_project_dev
+#: model:ir.actions.client,name:c1_project_dev.action_user_backups_explorer
+#| msgid "c1_project_dev.backup_file"
+msgid "c1_project_dev.user_backups_explorer"
+msgstr "c1_project_dev.user_backups_explorer"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_userdb_info
+msgid "c1_project_dev.userdb.info"
+msgstr "c1_project_dev.userdb.info"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_c1_project_dev_users_path
+msgid "c1_project_dev.users.path"
+msgstr "c1_project_dev.users.path"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_command_cmd
+msgid "command root"
+msgstr "根命令"
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,name:c1_project_dev.cmd_docker_exec
+msgid "docker exec"
+msgstr "docker exec"
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,name:c1_project_dev.cmd_docker_pip_install
+msgid "docker pip install"
+msgstr "docker pip install"
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,name:c1_project_dev.cmd_docker_restart
+msgid "docker restart"
+msgstr "docker restart"
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,name:c1_project_dev.cmd_docker_start
+msgid "docker start"
+msgstr "docker start"
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,name:c1_project_dev.cmd_docker_stop
+msgid "docker stop"
+msgstr "docker stop"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.wizard_db_manage_view
+msgid "e.g.: demo"
+msgstr "e.g.: demo"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.docker_container_form_view
+#: model:ir.ui.view,arch_db:c1_project_dev.view_res_users_form
+msgid "e.g.: user.qitong.info"
+msgstr "e.g.: user.qitong.info"
+
+#. module: c1_project_dev
+#: model:ir.ui.view,arch_db:c1_project_dev.user_addons_path_wizard_form_view
+msgid "filter"
+msgstr "过滤器"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_user_addon_info_name
+msgid "name"
+msgstr "名称"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,help:c1_project_dev.field_c1_project_dev_command_default_parameter
+msgid ""
+"name of a configuration parameter used as a default parameter appended to "
+"the original command"
+msgstr "作为默认参数附加到原始命令的配置参数的名称"
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,name:c1_project_dev.cmd_pip_install
+msgid "pip install"
+msgstr "pip install"
+
+#. module: c1_project_dev
+#: model:ir.model.fields,field_description:c1_project_dev.field_c1_project_dev_database_wizard_recovery_type
+msgid "recovery type"
+msgstr "恢复类型"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_res_config_settings
+#| msgid "ct_project.config.settings"
+msgid "res.config.settings"
+msgstr "res.config.settings"
+
+#. module: c1_project_dev
+#: model:ir.model,name:c1_project_dev.model_res_users_svn_wizard
+msgid "res.users.svn.wizard"
+msgstr "res.users.svn.wizard"
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,description:c1_project_dev.cmd_easy_install
+msgid "use easy_install to install python modules"
+msgstr "使用 easy_install 来安装 Python 模块"
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,description:c1_project_dev.cmd_pip_install
+msgid "use pip to install python modules"
+msgstr "使用 pip 来安装 Python 模块"
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,description:c1_project_dev.cmd_docker_pip_install
+msgid ""
+"use pip to install python modules in the docker container specified in the "
+"configs"
+msgstr "使用 pip 在配置文件指定的 Docker 容器中安装 Python 模块"
+
+#. module: c1_project_dev
+#: model:c1_project_dev.command,description:c1_project_dev.cmd_docker_exec
+msgid "used to execute some commands in docker container"
+msgstr "用于在Docker容器中执行一些命令"
+
+#. module: c1_project_dev
+#: selection:c1_project_dev.database.wizard,country:0
+msgid "Åland Islands"
+msgstr ""
+
+#~ msgid "Add a description..."
+#~ msgstr "添加说明..."
+
+#~ msgid "Addons directory"
+#~ msgstr "Addons目录"
+
+#~ msgid "Addons path explorer"
+#~ msgstr "模块路径浏览器"
+
+#~ msgid "Addons path used for installation"
+#~ msgstr "用于安装的模块路径"
+
+#~ msgid "Apply"
+#~ msgstr "应用"
+
+#~ msgid ""
+#~ "At each stage employees can block or make issue ready for next stage.\n"
+#~ "                        You can define here labels that will be displayed "
+#~ "for the state instead\n"
+#~ "                        of the default labels."
+#~ msgstr ""
+#~ "在每个阶段中，员工可以阻塞或者使问题对下一个阶段可用。\n"
+#~ "                        您可以在这里自定义要显示的状态标识。"
+
+#~ msgid "Authorization file path"
+#~ msgstr "权限配置文件路径"
+
+#~ msgid "Auto-Install"
+#~ msgstr "自动安装"
+
+#~ msgid "Cancellation"
+#~ msgstr "取消"
+
+#~ msgid "Click to add a stage in the issue pipeline."
+#~ msgstr "点击此处在问题管道中添加一个阶段。"
+
+#~ msgid "Closed"
+#~ msgstr "已关闭"
+
+#~ msgid "Closing"
+#~ msgstr "关闭"
+
+#~ msgid "Closing description"
+#~ msgstr "关闭描述"
+
+#~ msgid "Database id"
+#~ msgstr "数据库ID"
+
+#~ msgid "Default for New Projects"
+#~ msgstr "新项目默认"
+
+#~ msgid ""
+#~ "Define the steps that will be used in the project from the\n"
+#~ "                creation of the issue, up to the closing of the issue.\n"
+#~ "                You will use these stages in order to track the progress "
+#~ "in\n"
+#~ "                solving an issue."
+#~ msgstr ""
+#~ "定义项目中问题从创建到结束所使用的步骤。\n"
+#~ "            您将使用这些阶段来跟踪解决问题的过程。"
+
+#~ msgid "Docker container ID"
+#~ msgstr "Docker容器ID"
+
+#~ msgid "Docker user's password"
+#~ msgstr "Docker用户的密码"
+
+#~ msgid "Doublon allowed"
+#~ msgstr "允许重复"
+
+#~ msgid ""
+#~ "Explanation text to help users using the star and priority mechanism on "
+#~ "stages or issues that are in this stage."
+#~ msgstr "解释文本帮助用户在不同的阶段中的某一阶段使用星星和优先级机制"
+
+#~ msgid "Fixing"
+#~ msgstr "修复中"
+
+#~ msgid "Fixing description"
+#~ msgstr "修复说明"
+
+#~ msgid "Folded in Issues Pipeline"
+#~ msgstr "在问题管道中折叠"
+
+#~ msgid ""
+#~ "If you check this field, this stage will be proposed by default on each "
+#~ "new project. It will not assign this stage to existing projects."
+#~ msgstr ""
+#~ "如果选中此项，此阶段将会作为每个新项目的默认阶段。它不会被分配到现有的项目"
+#~ "中。"
+
+#~ msgid "Install automatically the module after the transfer"
+#~ msgstr "推送完成之后自动安装模块"
+
+#~ msgid "Issue Stage"
+#~ msgstr "问题阶段"
+
+#~ msgid "Issue Stages"
+#~ msgstr "问题阶段"
+
+#~ msgid "Issue transfer stage"
+#~ msgstr "问题推送阶段"
+
+#~ msgid "Issues"
+#~ msgstr "议题"
+
+#~ msgid "Kanban Blocked Explanation"
+#~ msgstr "看板阻塞说明"
+
+#~ msgid "Kanban Ongoing Explanation"
+#~ msgstr "看板进展说明"
+
+#~ msgid "Kanban Valid Explanation"
+#~ msgstr "看板有效性解释"
+
+#~ msgid "Local instance config file path"
+#~ msgstr "本地实例配置文件路径"
+
+#~ msgid "Module ids"
+#~ msgstr "模块ID"
+
+#~ msgid "Module revert wizard"
+#~ msgstr "模块恢复向导"
+
+#~ msgid "Module transfer Management"
+#~ msgstr "模块推送管理"
+
+#~ msgid "Module uplaod wizard"
+#~ msgstr "模块上传向导"
+
+#~ msgid "Module upload wizard"
+#~ msgstr "模块上传向导"
+
+#~ msgid "Name of the docker instance used to run odoo"
+#~ msgstr "运行Odoo使用的Docker实例名称"
+
+#~ msgid ""
+#~ "Override the default value displayed for the blocked state for kanban "
+#~ "selection, when the issue is in that stage."
+#~ msgstr "当问题处于该阶段时，覆盖看板选择的默认显示的阻止状态。"
+
+#~ msgid ""
+#~ "Override the default value displayed for the done state for kanban "
+#~ "selection, when the issue is in that stage."
+#~ msgstr "当问题处于该阶段时，覆盖看板选择的默认显示的已完成状态。"
+
+#~ msgid ""
+#~ "Override the default value displayed for the normal state for kanban "
+#~ "selection, when the issue is in that stage."
+#~ msgstr "当问题处于该阶段时，覆盖看板选择的默认显示的正常状态。"
+
+#~ msgid "Priority Management Explanation"
+#~ msgstr "优先级管理说明"
+
+#~ msgid "Project Issue"
+#~ msgstr "项目问题"
+
+#~ msgid "Projects"
+#~ msgstr "项目"
+
+#~ msgid "Projects using this stage"
+#~ msgstr "使用此阶段的项目"
+
+#~ msgid "Re-Open"
+#~ msgstr "重新打开"
+
+#~ msgid "Re-opening"
+#~ msgstr "重新打开"
+
+#~ msgid "Re-opening Description"
+#~ msgstr "重新打开说明"
+
+#~ msgid "SVN Respository physical path"
+#~ msgstr "SVN仓库物理路径"
+
+#~ msgid "SVN Script path"
+#~ msgstr "SVN脚本路径"
+
+#~ msgid "Search modules in "
+#~ msgstr "搜索模块"
+
+#~ msgid "Stage Description and Tooltips"
+#~ msgstr "阶段描述和工具提示"
+
+#~ msgid "Stage Name"
+#~ msgstr "阶段名称"
+
+#~ msgid "Stage where the project(module) is to be transfered"
+#~ msgstr "项目（模块）要推送的阶段"
+
+#~ msgid ""
+#~ "Stage where the project(module) linked to the issue is to be transfered"
+#~ msgstr "问题相关的项目（模块）要推送的阶段"
+
+#~ msgid "Svn repositories"
+#~ msgstr "SVN代码仓库"
+
+#~ msgid "Task transfer stage"
+#~ msgstr "任务推送阶段"
+
+#~ msgid ""
+#~ "This stage is folded in the kanban view when there are no records in that "
+#~ "stage to display."
+#~ msgstr ""
+#~ "当这个阶段中没有任何记录要呈现的时候，这个阶段在看板视图中被折叠起来"
+
+#~ msgid ""
+#~ "This wizard allows you to transfer the module from the development server "
+#~ "to the test server by SVN.<br/>\n"
+#~ "\t\t\t\t\t    <strong>You may fill the form with accurate svn information "
+#~ "for the operation to be successful.</strong>"
+#~ msgstr ""
+#~ "这个向导使得您可以通过SVN从代码服务器向测试服务器推送模块。<br/>\n"
+#~ "\t\t\t\t\t    <strong>您需要使用正确的SVN信息填写表单以确保操作可以成功执"
+#~ "行。</strong>"
+
+#~ msgid "Verification description"
+#~ msgstr "验证说明"
+
+#~ msgid "Verifying"
+#~ msgstr "验证中"
+
+#~ msgid ""
+#~ "You can also add a description to help your coworkers understand the "
+#~ "meaning and purpose of the stage."
+#~ msgstr "你还可以添加一个说明来让你的同时理解相关阶段的意思和目的"
+
+#~ msgid ""
+#~ "You can also give a tooltip about the use of the stars available in the "
+#~ "kanban and form views."
+#~ msgstr "对于看板视图和表单视图中的可用星星的使用，会有一个工具提示给你使用"
+
+#~ msgid "c1_project_dev.module_pydep"
+#~ msgstr "c1_project_dev.module_pydep"
+
+#~ msgid "easy_install"
+#~ msgstr "easy_install"
+
+#~ msgid "issue Stage"
+#~ msgstr "问题阶段"
+
+#~ msgid "username of sudo-er user in the docker instance"
+#~ msgstr "Docker容器中sudoer用户的用户名"
+
+#~ msgid "Dad"
+#~ msgstr "坏"
+
+#, fuzzy
+#~| msgid "<span>Refresh</span>"
+#~ msgid "<span>Mar revision</span>"
+#~ msgstr "<span>刷新</span>"
+
+#~ msgid "Action forbidden till this task is marked as \"done\""
+#~ msgstr "任务被标识为“完成”前动作被禁止"
+
+#~ msgid "Databases"
+#~ msgstr "数据库"
+
+#~ msgid "Docker instance viewer"
+#~ msgstr "Docker实例查看器"
+
+#~ msgid "Terminal"
+#~ msgstr "终端"
+
+#~ msgid "search module state"
+#~ msgstr "搜索模块状态"
+
+#~ msgid "Duplicate"
+#~ msgstr "复制"
+
+#~ msgid "Refresh interface after transfer"
+#~ msgstr "推送完成之后刷新页面"
+
+#~ msgid "Docker instance"
+#~ msgstr "Docker实例"
+
+#~ msgid "Local instance informations"
+#~ msgstr "本地实例信息"
+
+#~ msgid "View log file"
+#~ msgstr "查看日志文件"
+
+#~ msgid "<span>Install dependences</span>"
+#~ msgstr "<span>安装依赖</span>"
+
+#~ msgid "Command used to install odoo modules"
+#~ msgstr "用于安装企通云模块的命令"
+
+#~ msgid "Command used to uninstall odoo modules"
+#~ msgstr "用于卸载企通云模块的命令"
+
+#~ msgid "Command used to upgrade odoo modules"
+#~ msgstr "用于升级企通云模块的命令"
+
+#~ msgid "Could'nt find the transferred the module. Some error happened."
+#~ msgstr "发生错误，无法找到推送的模块。"
+
+#~ msgid "Impossible to revert by dragging"
+#~ msgstr "通过拖放恢复的可行性"
+
+#~ msgid ""
+#~ "Only testers assigned to the project \"%s\" can update the task to this "
+#~ "stage."
+#~ msgstr "只有分配到项目 \"%s\" 上的测试人员可以更新任务到此阶段。"
+
+#~ msgid "Project repositories"
+#~ msgstr "项目代码仓库"
+
+#~ msgid "Restard service"
+#~ msgstr "重启服务"
+
+#~ msgid ""
+#~ "Revert a module to a previous revision; The user can select the revision "
+#~ "and the stage to move the task to. The stage will be upgraded to the "
+#~ "stage selected by the user"
+#~ msgstr ""
+#~ "恢复模块到一个之前的版本；用户可以选择要恢复的版本和阶段。阶段将会按用户所"
+#~ "选进行更新。"
+
+#~ msgid "Testers"
+#~ msgstr "测试人员"
+
+#~ msgid ""
+#~ "Transfer the module to the test server; The stage will be upgaded to the "
+#~ "specified stage in the configuration"
+#~ msgstr "推送模块到测试服务器；此阶段将更新为配置中指定的阶段"
+
+#~ msgid "Upgrade odoo module"
+#~ msgstr "升级企通云模块"
+
+#~ msgid "80sERP"
+#~ msgstr "80sERP"
+
+#~ msgid "Analysis"
+#~ msgstr "分析"
+
+#~ msgid "Prototyping"
+#~ msgstr "设计"
+
+#~ msgid "Prototyping description"
+#~ msgstr "原型设计说明"
