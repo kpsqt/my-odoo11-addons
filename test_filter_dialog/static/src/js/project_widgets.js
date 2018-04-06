@@ -319,7 +319,7 @@ odoo.define('web.test_filter_dialog', function (require) {
         'test_filter_dialog.user_backups_explorer', UserDataPathExplorer
     );
 
-    return ModulesFilter;
+    //return ModulesFilter;
 
 
     var SearchImport = dialogs.SelectCreateDialog.extend({
