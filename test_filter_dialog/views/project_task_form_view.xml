@@ -4,10 +4,11 @@
 
 
         <record id="action_search_import" model="ir.actions.client">
-            <field name="name">test_filter_dialog.module_filter</field>
-            <field name="tag">test_filter_dialog.module_filter</field>
+            <field name="name">test_filter_dialog.search_import</field>
+            <field name="tag">test_filter_dialog.search_import</field>
             <field name="target">new</field>
         </record>
+
 
         <!-- test menu -->
         <menuitem id="test_feedback_management" action="action_search_import"
