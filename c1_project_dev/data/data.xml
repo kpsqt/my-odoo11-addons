@@ -4,7 +4,7 @@
 
 
         <!-- Task Stages -->
-        <record id="analysis" model="project.task.type">
+        <record model="project.task.type" id="analysis">
             <field name="name">Requirements</field>
             <field name="sequence">100</field>
             <field name="is_initial">True</field>
