@@ -12,7 +12,7 @@
     ],
     'data': [
         "security/security.xml",
-        "security/ir.model.access.csv",
+        # "security/ir.model.access.csv",
         "data/data.xml",
         "views/project_task_form_view.xml",
         "views/res_users.xml",
