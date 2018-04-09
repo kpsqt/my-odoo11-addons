@@ -139,7 +139,7 @@ odoo.define('web.test_filter_dialog', function (require) {
                 dialog.$el.find('.o_mail_thread').empty().append(QWeb.render('review_list', {
                     'reviews': res,
                 }));
-                dialog.$el.find('.modal-title').empty().append(self.data.module_id.data.display_name+'');
+                dialog.$el.find('.modal-title').empty().append(self.data.module_id.data.display_name + '');
             });
             dialog.appendTo($(document.body));
         }
@@ -196,132 +196,6 @@ odoo.define('web.test_filter_dialog', function (require) {
     widgetRegistry.add('remote_db_module_filter', ModulesFilter);
 
 
-    var UserDataPathExplorer = Widget.extend({
-        // template: 'UserDataPathExplorer',
-        folder_list: [],
-        events: {
-            'click .folder-item': 'selected_item',
-            'click button.del_button': 'delete_item',
-            'click .btn-delete-folder': 'delete_folder',
-            // 'click thead th.o_column_sortable[data-p]': 'sort_records',
-        },
-        start: function () {
-            var self = this;
-            rpc.query({
-                model: "res.users",
-                method: "get_users_backupspath_content",
-                args: [],
-            }).then(function (result) {
-                self.folder_list = result;
-                self.display_widget(self.folder_list);
-            });
-        },
-        display_widget: function (folder_list) {
-            var self = this;
-            self.$el.append(QWeb.render('UserDataPathExplorer', {'folders': folder_list}));
-            self.init_display();
-        },
-        selected_item: function (event) {
-            var self = this;
-            // console.log( self.folder_list[parseInt($(event.currentTarget).data('idx'), 10)] );
-            var folder = self.folder_list[parseInt($(event.currentTarget).data('idx'), 10)];
-            // var Users = new Model('res.users');
-
-            rpc.query({
-                model: "res.users",
-                method: "get_backupspath_subfolder_content",
-                args: [folder, true],
-            }).then(function (result) {
-                // console.log(result);
-                self.$el.find('.folder-content-list-group').empty().append(QWeb.render('UserDataPathExplorer_FileTable', {
-                    'file_list': result,
-                    'folder': parseInt($(event.currentTarget).data('idx'), 10),
-                    'current_folder': folder
-                }));
-            });
-        },
-        delete_item: function (event) {
-            var self = this;
-            var sub_folder = self.folder_list[parseInt($(event.currentTarget).data('p'), 10)];
-            var file_name = $(event.currentTarget).data('name');
-
-            var r = confirm('Do you really want to delete ' + sub_folder + '/' + file_name);
-            if (r == true) {
-                rpc.query({
-                    model: "res.users",
-                    method: "delete_backup_file",
-                    args: [sub_folder, file_name],
-                }).then(function (result) {
-                    self.$el.find('.folder-item[data-idx=' + parseInt($(event.currentTarget).data('p')) + ']').click();
-                });
-            }
-        },
-        delete_folder: function (event) {
-            var self = this;
-            var sub_folder = self.folder_list[parseInt($(event.currentTarget).data('fid'), 10)];
-
-            var r = confirm('Do you really want to delete ' + sub_folder + ' and all its content');
-            if (r == true) {
-                rpc.query({
-                    model: "res.users",
-                    method: "delete_backup_folder",
-                    args: [sub_folder],
-                }).then(function (result) {
-                    // alert(sub_folder + ' deleted!!! consider to refresh UI');
-                    self.restart();
-                });
-            }
-
-        },
-        init_display: function () {
-            var self = this;
-            self.$el.find('.folder-item').first().click();
-        },
-        restart: function () {
-            var self = this;
-            self.$el.empty();
-            self.start();
-        },
-        sort_records: function (e) {
-            var self = this;
-            e.stopPropagation();
-            var $column = $(e.currentTarget);
-            var folder = self.folder_list[parseInt($column.data('p'), 10)];
-            if ($column.hasClass("o-sort-down") || $column.hasClass("o-sort-up")) {
-                $column.toggleClass("o-sort-up o-sort-down");
-            } else {
-                $column.addClass("o-sort-down");
-            }
-            $column.siblings('.o_column_sortable').removeClass("o-sort-up o-sort-down");
-
-            var reverse = true;
-            if ($column.hasClass("o-sort-down")) {
-                reverse = false;
-            }
-
-            rpc.query({
-                model: "res.users",
-                method: "get_backupspath_subfolder_content",
-                args: [folder, true],
-            }).then(function (result) {
-                self.$el.find('.folder-content-list-group').empty().append(QWeb.render('UserDataPathExplorer_FileTable', {
-                    'file_list': result,
-                    'folder': parseInt($column.data('p'), 10),
-                    'current_folder': folder
-                }));
-            });
-            return true;
-
-        }
-    });
-
-    core.action_registry.add(
-        'test_filter_dialog.user_backups_explorer', UserDataPathExplorer
-    );
-
-    //return ModulesFilter;
-
-
     var SearchImport = dialogs.SelectCreateDialog.extend({
         init: function (parent, options) {
             options = options || {};
@@ -333,8 +207,22 @@ odoo.define('web.test_filter_dialog', function (require) {
             // this.domain = options.domain || [];
             // this.context = options.context || {};
             this.options = _.extend(this.options || {}, options || {});
+            this.no_create = true;
 
             this.dataset = new data.DataSet(this, this.res_model, this.context);
+
+            this.on_selected = function (item_ids) {
+                var self = this;
+                /*this._rpc({
+                    model: 'model_name',
+                    method: 'method_name',
+                    args: item_ids,
+                }).then(function (res) {
+                    self.close();
+                });*/
+                this.close();
+            }
+
             this.open();
         }
     });
